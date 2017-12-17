@@ -1,0 +1,6 @@
+name:     PostgREST
+url:      https://github.com/begriffs/postgrest
+db:       PostgreSQL
+api:      REST
+lang:     Haskell
+license:  MIT

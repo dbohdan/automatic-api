@@ -1,0 +1,6 @@
+name:     xmysql
+url:      https://github.com/o1lab/xmysql
+db:       MySQL
+api:      REST
+lang:     JavaScript (Node.js)
+license:  MIT

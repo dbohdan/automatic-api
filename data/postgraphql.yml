@@ -1,0 +1,6 @@
+name:     PostGraphQL
+url:      https://github.com/postgraphql/postgraphql
+db:       PostgreSQL
+api:      GraphQL
+lang:     TypeScript (Node.js)
+license:  MIT

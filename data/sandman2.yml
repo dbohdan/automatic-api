@@ -1,0 +1,6 @@
+name:     sandman2
+url:      https://github.com/jeffknupp/sandman2
+db:       All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others).
+api:      REST
+lang:     Python 2/3
+license:  Apache 2.0

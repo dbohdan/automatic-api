@@ -1,0 +1,13 @@
+The following is a list of tools that automatically expose a REST, GraphQL, or another kind of API for your database.
+
+{{.table}}
+
+GitHub stats updated {{.date}}.
+
+# Contributing
+
+Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list.
+
+# License
+
+This document is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). By contributing you agree to release your contribution under this license.

@@ -1,0 +1,6 @@
+name:     DreamFactory
+url:      https://www.dreamfactory.com/
+db:       MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and [others](https://www.dreamfactory.com/products).
+api:      REST
+lang:     PHP 5
+license:  Apache 2.0, proprietary (optional extras)
