@@ -15,7 +15,9 @@ GitHub stats updated 2017-12-18.
 
 # Contributing
 
-Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list.
+Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list or update an existing one.
+
+Note that `README.md` is automatically generated from `README.md.template` and the data in [`data/`](./data/). Do not edit `README.md` directly. To update a project's information, edit the corresponding file in `data/`. To add a project, create a new file.
 
 # License
 
