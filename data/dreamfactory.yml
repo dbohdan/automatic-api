@@ -1,5 +1,5 @@
 name:     DreamFactory
-url:      https://www.dreamfactory.com/
+url:      https://github.com/dreamfactorysoftware/dreamfactory
 db:       MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and [others](https://www.dreamfactory.com/products).
 api:      REST
 lang:     PHP 5
