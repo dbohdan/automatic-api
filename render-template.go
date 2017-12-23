@@ -42,7 +42,8 @@ type projStats struct {
 	Name string
 	Ref  struct {
 		Target struct {
-			History struct {
+			AuthoredDate time.Time
+			History      struct {
 				TotalCount int
 			}
 		}
@@ -163,6 +164,7 @@ func buildStatsQuery(repos []repo) (query string, err error) {
 		  ref(qualifiedName: "master") {
 		    target {
 		      ... on Commit {
+		        authoredDate
 		        history {
 		          totalCount
 		        }
@@ -229,9 +231,13 @@ func fetchGitHubStats(token string, repos []repo) (statsHTML []string,
 		if err != nil {
 			return nil, err
 		}
-		statsHTML[i] = fmt.Sprintf("%d&nbsp;★, %d&nbsp;commits",
+		latestCommitDate := v.Ref.Target.AuthoredDate.
+			Format("2006-01-02")
+		statsHTML[i] = fmt.Sprintf(
+			"%d&nbsp;★; %d&nbsp;commits, latest&nbsp;%s",
 			v.Stargazers.TotalCount,
-			v.Ref.Target.History.TotalCount)
+			v.Ref.Target.History.TotalCount,
+			latestCommitDate)
 	}
 	return statsHTML, nil
 }
