@@ -6,7 +6,7 @@ GitHub stats updated {{.date}}. The commit count and the latest commit date are 
 
 # Contributing
 
-Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list or update an existing one.
+Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list or to update an existing one. A submitted project should be at least alpha quality, i.e., ready for users to test. A project that is no longer actively maintained should be more mature that than and already tested by users.
 
 Note that `README.md` is automatically generated from `README.md.template` and the data in [`data/`](./data/). Do not edit `README.md` directly. To update a project's information, edit the corresponding file in `data/`. To add a project, create a new file.
 
