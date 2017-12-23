@@ -2,7 +2,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 
 {{.table}}
 
-GitHub stats updated {{.date}}.
+GitHub stats updated {{.date}}. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Contributing
 

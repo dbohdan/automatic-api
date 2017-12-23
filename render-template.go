@@ -39,8 +39,8 @@ type repo struct {
 	Owner string
 }
 type projStats struct {
-	Name string
-	Ref  struct {
+	Name             string
+	DefaultBranchRef struct {
 		Target struct {
 			AuthoredDate time.Time
 			History      struct {
@@ -161,7 +161,7 @@ func buildStatsQuery(repos []repo) (query string, err error) {
 	projStatsFragment := `
 		fragment ProjStats on Repository {
 		  name
-		  ref(qualifiedName: "master") {
+		  defaultBranchRef {
 		    target {
 		      ... on Commit {
 		        authoredDate
@@ -231,12 +231,12 @@ func fetchGitHubStats(token string, repos []repo) (statsHTML []string,
 		if err != nil {
 			return nil, err
 		}
-		latestCommitDate := v.Ref.Target.AuthoredDate.
+		latestCommitDate := v.DefaultBranchRef.Target.AuthoredDate.
 			Format("2006-01-02")
 		statsHTML[i] = fmt.Sprintf(
 			"%d&nbsp;★; %d&nbsp;commits, latest&nbsp;%s",
 			v.Stargazers.TotalCount,
-			v.Ref.Target.History.TotalCount,
+			v.DefaultBranchRef.Target.History.TotalCount,
 			latestCommitDate)
 	}
 	return statsHTML, nil

@@ -11,7 +11,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 | [xmysql](https://github.com/o1lab/xmysql)                            | MySQL                                                                                             | REST     | JavaScript (Node.js)    | MIT                                       | 1672&nbsp;★; 205&nbsp;commits, latest&nbsp;2017-12-07   |            |
 
 
-GitHub stats updated 2017-12-23.
+GitHub stats updated 2017-12-23. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Contributing
 
