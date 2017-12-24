@@ -1,0 +1,7 @@
+name:     neo4j-graphql
+url:      https://github.com/neo4j-graphql/neo4j-graphql
+db:       Neo4j
+api:      GraphQL
+lang:     Kotlin
+license:  Apache 2.0
+notes:    Can be used to auto-create GraphQL API from existing database or drive a new database model from GraphQL schema and auto-generate resolvers. See <a href="https://github.com/neo4j-graphql/neo4j-graphql-js">neo4j-graphql-js</a> for a similar project compatible with JavaScript GraphQL implementations.
