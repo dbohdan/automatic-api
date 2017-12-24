@@ -11,6 +11,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 | [sandman2](https://github.com/jeffknupp/sandman2)                    | All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others).              | REST     | Python 2/3              | Apache 2.0                                | 644&nbsp;★; 129&nbsp;commits, latest&nbsp;2017-03-06    |            |
 | [tuql](https://github.com/bradleyboy/tuql)                           | SQLite 3                                                                                          | GraphQL  | JavaScript (Node.js)    | MIT                                       | 175&nbsp;★; 34&nbsp;commits, latest&nbsp;2017-11-22     | Read-only. |
 | [xmysql](https://github.com/o1lab/xmysql)                            | MySQL                                                                                             | REST     | JavaScript (Node.js)    | MIT                                       | 1672&nbsp;★; 205&nbsp;commits, latest&nbsp;2017-12-07   |            |
+| [sweet-liberty](https://github.com/RJMetrics/sweet-liberty)                            | PostgreSQL                                                                                             | REST     | Clojure    | Apache License 2.0                                       | 104&nbsp;★; 35&nbsp;commits, latest&nbsp;2016-02-00   |            |
 
 
 GitHub stats updated 2017-12-23. The commit count and the latest commit date are for the default branch (usually `master`).
