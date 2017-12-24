@@ -1,0 +1,6 @@
+name:     Objection-Graphql
+url:      https://github.com/Vincit/objection-graphql
+db:       All databases supported by knex
+api:      GraphQL
+lang:     JavaScript (Node.js)
+license:  MIT
