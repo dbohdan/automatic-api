@@ -1,0 +1,7 @@
+name:     ZenQuery
+url:      https://github.com/BjoernKW/ZenQuery
+db:       PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and [others](https://github.com/BjoernKW/ZenQuery#database)
+api:      REST
+lang:     Java (JavaScript for the front-end)
+license:  Apache 2.0
+notes:    Read-only.
