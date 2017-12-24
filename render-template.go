@@ -253,7 +253,7 @@ func main() {
 	}
 
 	re, err := regexp.Compile(
-		"https?://github.com/([a-z0-9-]+)/([a-zA-Z0-9_-]+)/?")
+		"https?://github.com/([a-zA-Z0-9-]+)/([a-zA-Z0-9_-]+)/?")
 	if err != nil {
 		log.Fatal(err)
 	}
