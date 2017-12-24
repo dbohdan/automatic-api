@@ -3,4 +3,4 @@ url:      https://github.com/SoftInstigate/restheart
 db:       MongoDB
 api:      REST
 lang:     Java
-license:  GNU v3.0
+license:  GNU AGPLv3
