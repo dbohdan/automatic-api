@@ -1,0 +1,6 @@
+name:     BloomREST
+url:      https://github.com/assafmo/BloomREST
+db:       Bloom Filtrrs
+api:      Rest
+lang:     Python
+license:  MIT
