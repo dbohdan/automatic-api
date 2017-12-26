@@ -1,0 +1,6 @@
+nome :      express-es6-jwt-mongoose
+url :       https://github.com/emersonlaurentino/express-es6-jwt-mongoose
+db :        MongoDB
+api :       REST
+lang :      JavaScript (Node.js)
+licença :   MIT
