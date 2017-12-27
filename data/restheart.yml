@@ -4,3 +4,4 @@ db:       MongoDB
 api:      REST
 lang:     Java
 license:  GNU AGPLv3
+notes:    [Official Docker image](https://hub.docker.com/r/softinstigate/restheart/).

@@ -4,3 +4,4 @@ db:       MySQL
 api:      REST
 lang:     JavaScript (Node.js)
 license:  MIT
+notes:    [Official Docker image](https://hub.docker.com/r/markuman/xmysql/).

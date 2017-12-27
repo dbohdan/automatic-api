@@ -4,3 +4,4 @@ db:       MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and [others](https://www.
 api:      REST
 lang:     PHP 5
 license:  Apache 2.0, proprietary (optional extras)
+notes:    [Official Docker image](https://hub.docker.com/r/dreamfactorysoftware/df-docker/).

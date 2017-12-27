@@ -4,3 +4,4 @@ db:       PostgreSQL
 api:      REST
 lang:     Haskell
 license:  MIT
+notes:    [Official Docker image](https://hub.docker.com/r/begriffs/postgrest/).
