@@ -1,0 +1,6 @@
+name:     Eve
+url:      https://github.com/pyeve/eve
+db:       MongoDB and All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others)
+api:      REST
+lang:     Python
+license:  BSD License
