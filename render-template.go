@@ -19,19 +19,19 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/magiconair/properties"
 	"github.com/olekukonko/tablewriter"
-	"gopkg.in/yaml.v2"
 )
 
 type entry struct {
-	Name    string
-	URL     string
-	DB      string
-	API     string
-	Lang    string
-	License string
-	Stats   string
-	Notes   string
+	Name    string `properties:"name"`
+	URL     string `properties:"url"`
+	DB      string `properties:"db"`
+	API     string `properties:"api"`
+	Lang    string `properties:"lang"`
+	License string `properties:"license"`
+	Stats   string `properties:"stats,default="`
+	Notes   string `properties:"notes,default="`
 }
 type table [][]string
 type repo struct {
@@ -58,7 +58,7 @@ type gitHubResponse struct {
 	Errors  []map[string]interface{}
 }
 
-// Load entry data from the YAML files that match the glob pattern.
+// Load entry data from properties files that match the glob pattern.
 func loadEntries(glob string) (entries []entry, err error) {
 	matches, err := filepath.Glob(glob)
 	if err != nil {
@@ -66,11 +66,14 @@ func loadEntries(glob string) (entries []entry, err error) {
 	}
 	entries = make([]entry, len(matches))
 	for i, match := range matches {
-		data, err := ioutil.ReadFile(match)
+		p, err := properties.LoadFile(match, properties.UTF8)
 		if err != nil {
 			return nil, err
 		}
-		yaml.Unmarshal(data, &entries[i])
+		err = p.Decode(&entries[i])
+		if err != nil {
+			return nil, err
+		}
 	}
 	return entries, nil
 }
@@ -247,7 +250,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	entries, err := loadEntries("data/*.yml")
+	entries, err := loadEntries("data/*")
 	if err != nil {
 		log.Fatal(err)
 	}
