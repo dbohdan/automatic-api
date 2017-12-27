@@ -1,7 +1,9 @@
 name:     Eve
 url:      https://github.com/pyeve/eve
-db:       MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy (SQL databases).
+db:       MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy \
+          (SQL databases).
 api:      REST
 lang:     Python 2/3
 license:  BSD (three-clause)
-notes:    The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.
+notes:    The SQLAlchemy extension isn't automatic. It requires the user to \
+          write SQLAlchemy mappings.
