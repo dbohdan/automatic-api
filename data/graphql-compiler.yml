@@ -1,0 +1,7 @@
+name:     GraphQL compiler
+url:      https://github.com/kensho-technologies/graphql-compiler
+db:       OrientDB / any other database with Gremlin support
+api:      GraphQL
+lang:     Python 2/3
+license:  Apache 2.0
+notes:    Turns GraphQL into a general-purpose graph query language by using custom directives. GraphQL strings go in, database query strings come out -- so it'll work with any web server framework and database client.
