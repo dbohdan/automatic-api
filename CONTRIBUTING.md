@@ -4,7 +4,9 @@
 
 # What projects to submit
 
-To qualify as "automatic" for our purposes, a piece of software that exposes the API must take a minimal amount of configuration to set up, for example, just the credentials to access the database and a port on which to serve the API. It must not require the user to define schemas/models or API endpoints to get started. It should respond to changes to the database schema with no or minimal user intervention (e.g., a restart or a SIGHUP). This means that most Web frameworks, code generators, and boilerplates don't qualify.
+(Below, "must" means a hard requirement and "should" means a preference.)
+
+To qualify as "automatic" for our purposes, a piece of software that exposes the API must take a minimal amount of configuration to set up. A good example would be just the credentials to access the database and a port on which to serve the API. If the database itself has a schema (like SQL databases do), it must not require the user to define schemas or models in the configuration to get started and should not require the user to define the API endpoints. It should respond to changes to the database schema with no or minimal user intervention (e.g., a restart or a SIGHUP). This means that most Web frameworks, code generators, and boilerplates don't qualify.
 
 A submitted project must be at least alpha quality, that is, ready for users to test. A project that is no longer actively maintained must be more mature than that and already tested by users.
 
