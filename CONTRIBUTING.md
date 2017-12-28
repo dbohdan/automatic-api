@@ -10,4 +10,4 @@ To qualify as "automatic" for our purposes, a piece of software that exposes the
 
 A submitted project must be at least alpha quality, that is, ready for users to test. A project that is no longer actively maintained must be more mature than that and already tested by users.
 
-Please only submit software you can run on your own servers.
+Please only submit open source or [open core](https://en.wikipedia.org/wiki/Open_core) software you can run on your own servers.

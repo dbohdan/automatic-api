@@ -1,4 +1,4 @@
-The following is a list of tools that automatically expose a REST, GraphQL, or another kind of API for your database.
+The following is a list of open source tools that automatically expose a REST, GraphQL, or another kind of API for your database.
 
 {{.table}}
 
