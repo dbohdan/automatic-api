@@ -1,0 +1,6 @@
+name:     subZero
+url:      https://github.com/subzerocloud/subzero-starter-kit
+db:       PostgreSQL
+api:      REST/GraphQL
+lang:     Haskell/Lua
+license:  MIT/Commercial
