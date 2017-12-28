@@ -4,6 +4,10 @@ The following is a list of open source tools that automatically expose a REST, G
 
 GitHub stats updated {{.date}}. The commit count and the latest commit date are for the default branch (usually `master`).
 
+# Related projects
+
+For projects that depend on or enhance those on the list see the [Related projects](https://github.com/dbohdan/automatic-api/wiki/Related-projects) wiki page. Feel free to add yours.
+
 # Contributing
 
 Your contributions are welcome! Please submit a pull request or create an issue to add a new project to the list or to update an existing one. See [CONTRIBUTING](./CONTRIBUTING.md) for the details.
