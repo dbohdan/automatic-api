@@ -1,7 +1,7 @@
 name:     tuql
 url:      https://github.com/bradleyboy/tuql
-db:       SQLite 3
+db:       SQLite 3 or SQL infile
 api:      GraphQL
 lang:     JavaScript (Node.js)
 license:  MIT
-notes:    Read-only.
+notes:    
