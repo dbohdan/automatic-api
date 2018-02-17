@@ -1,4 +1,4 @@
-SRC = $(wildcard data/*.yml)
+SRC = $(wildcard data/*)
 
 
 .PHONY: fmt
