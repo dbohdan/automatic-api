@@ -1,0 +1,7 @@
+name:     PostGraphile
+url:      https://github.com/graphile/postgraphile
+db:       PostgreSQL
+api:      GraphQL
+lang:     TypeScript (Node.js)
+license:  MIT
+notes:    Formerly "PostGraphQL", [Official Docker image](https://hub.docker.com/r/postgraphql/postgraphql/).
