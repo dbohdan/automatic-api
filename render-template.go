@@ -174,23 +174,23 @@ func queryGitHub(token string, query string) (body []byte, err error) {
 func buildStatsQuery(repos []repo) (query string, err error) {
 	repoQuery := `r%d: repository(owner: "%s", name: "%s") { ...ProjStats }`
 	projStatsFragment := `
-        fragment ProjStats on Repository {
-          name
-          defaultBranchRef {
-            target {
-              ... on Commit {
-                authoredDate
-                history {
-                  totalCount
-                }
-              }
-            }
-          }
-          stargazers {
-            totalCount
-          }
-        }
-    `
+		fragment ProjStats on Repository {
+		  name
+		  defaultBranchRef {
+		    target {
+		      ... on Commit {
+		        authoredDate
+		        history {
+		          totalCount
+		        }
+		      }
+		    }
+		  }
+		  stargazers {
+		    totalCount
+		  }
+		}
+	`
 	queryBuf := bytes.NewBufferString("{\n")
 	safe, err := regexp.Compile("^[a-zA-Z0-9_-]+$")
 	if err != nil {
