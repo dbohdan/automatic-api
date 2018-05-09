@@ -25,7 +25,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>3622&nbsp;★; 11128&nbsp;commits, latest&nbsp;2018-05-02</td>
+    <td>3623&nbsp;★; 11128&nbsp;commits, latest&nbsp;2018-05-02</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -42,7 +42,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>Dgraph</td>
     <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
     <td>Go</td>
-    <td>GNU AGPLv3</td>
+    <td>Apache 2.0 with a &amp;#34;no selling&amp;#34; restriction</td>
     <td>5520&nbsp;★; 2403&nbsp;commits, latest&nbsp;2018-05-03</td>
     <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
@@ -61,7 +61,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD (three-clause)</td>
-    <td>4968&nbsp;★; 2817&nbsp;commits, latest&nbsp;2018-05-09</td>
+    <td>4970&nbsp;★; 2817&nbsp;commits, latest&nbsp;2018-05-09</td>
     <td>The SQLAlchemy extension isn&#39;t automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
