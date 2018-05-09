@@ -19,8 +19,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/a8m/mark"
 	"github.com/magiconair/properties"
+	"github.com/rhinoman/go-commonmark"
 )
 
 type entry struct {
@@ -109,7 +109,7 @@ func entriesToTable(entries []entry) (tbl table) {
 
 // <p>foo</p> -> foo
 func stripP(html string) (res string) {
-	p := regexp.MustCompile("^<p>(.*?)</p>$")
+	p := regexp.MustCompile("^<p>(.*?)</p>\n?$")
 	found := p.FindStringSubmatch(html)
 	if len(found) == 2 {
 		return found[1]
@@ -129,8 +129,9 @@ func (tbl table) Format() (res string) {
 	for _, row := range tbl[1:] {
 		buffer.WriteString("  <tr>\n")
 		for _, col := range row {
-			colHTML := stripP(mark.Render(col))
-			buffer.WriteString(fmt.Sprintf("    <td>%s</td>\n", colHTML))
+			colHTML := stripP(commonmark.Md2Html(col, 0))
+			buffer.WriteString(
+				fmt.Sprintf("    <td>%s</td>\n", colHTML))
 		}
 		buffer.WriteString("  </tr>\n")
 	}
