@@ -1,28 +1,181 @@
 The following is a list of open source tools that automatically expose a REST, GraphQL, or another kind of API for your database, as well as databases with a built-in HTTP API.
 
-|                          Project name/link                           |                                                     Database(s) supported                                                     |                                 API type                                  |       Implementation language       |                       License                       |                      GitHub stats                       |                                                                   Notes                                                                    |
-|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [ArangoDB](https://github.com/arangodb/arangodb)                     | ArangoDB                                                                                                                      | REST                                                                      | C++                                 | Apache 2.0                                          | 5276&nbsp;★; 41959&nbsp;commits, latest&nbsp;2018-03-09 | A database with a built-in REST API. [Official Docker image](https://hub.docker.com/r/arangodb/arangodb/).                                 |
-| [CouchDB](https://github.com/apache/couchdb)                         | CouchDB                                                                                                                       | REST                                                                      | Erlang                              | Apache 2.0                                          | 3507&nbsp;★; 11013&nbsp;commits, latest&nbsp;2018-03-09 | A database with a built-in REST API. [Official Docker image](https://hub.docker.com/r/_/couchdb/).                                         |
-| [Datasette](https://github.com/simonw/datasette)                     | SQLite 3                                                                                                                      | REST                                                                      | Python 3                            | Apache 2.0                                          | 1302&nbsp;★; 257&nbsp;commits, latest&nbsp;2018-01-17   | Read-only. [Official Docker image](https://hub.docker.com/r/terranodo/datasette/).                                                         |
-| [Dgraph](https://github.com/dgraph-io/dgraph)                        | Dgraph                                                                                                                        | [GraphQL+-](https://docs.dgraph.io/query-language/), a GraphQL derivative | Go                                  | GNU AGPLv3                                          | 4979&nbsp;★; 2323&nbsp;commits, latest&nbsp;2018-03-09  | A database with a built-in GraphQL-like API. [Official Docker image](https://hub.docker.com/r/dgraph/dgraph/).                             |
-| [DreamFactory](https://github.com/dreamfactorysoftware/dreamfactory) | MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and [others](https://www.dreamfactory.com/products).                             | REST                                                                      | PHP 5                               | Apache 2.0, proprietary (optional extras)           | 771&nbsp;★; 800&nbsp;commits, latest&nbsp;2018-02-25    | [Official Docker image](https://hub.docker.com/r/dreamfactorysoftware/df-docker/).                                                         |
-| [Eve](https://github.com/pyeve/eve)                                  | MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy (SQL databases).                                                     | REST                                                                      | Python 2/3                          | BSD (three-clause)                                  | 4802&nbsp;★; 2744&nbsp;commits, latest&nbsp;2018-02-25  | The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.                                               |
-| [HTSQL](https://bitbucket.org/prometheus/htsql/src)                  | MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)                                                                | REST                                                                      | Python 2                            | GNU AGPLv3, proprietary (Oracle and MS SQL support) | n/a                                                     |                                                                                                                                            |
-| [neo4j-graphql](https://github.com/neo4j-graphql/neo4j-graphql)      | Neo4j                                                                                                                         | GraphQL                                                                   | Kotlin                              | Apache 2.0                                          | 174&nbsp;★; 116&nbsp;commits, latest&nbsp;2018-03-08    | Can generate a GraphQL API from an existing database or derive a new database model from a GraphQL schema and auto-generate the resolvers. |
-| [OrientDB](https://github.com/orientechnologies/orientdb)            | OrientDB                                                                                                                      | REST                                                                      | Java                                | Apache 2.0                                          | 3378&nbsp;★; 16569&nbsp;commits, latest&nbsp;2018-03-09 | A database with a built-in REST API. [Official Docker image](https://store.docker.com/images/orientdb).                                    |
-| [PHP-CRUD-API](https://github.com/mevdschee/php-crud-api)            | MySQL, PostgreSQL, MS SQL Server 2012. Limited support for SQLite 3.                                                          | REST                                                                      | PHP 5                               | MIT                                                 | 1334&nbsp;★; 1020&nbsp;commits, latest&nbsp;2018-02-22  |                                                                                                                                            |
-| [PostGraphile](https://github.com/graphile/postgraphile)             | PostgreSQL                                                                                                                    | GraphQL                                                                   | TypeScript (Node.js)                | MIT                                                 | 5038&nbsp;★; 860&nbsp;commits, latest&nbsp;2018-03-08   | Formerly "PostGraphQL", [Official Docker image](https://hub.docker.com/r/postgraphql/postgraphql/).                                        |
-| [PostgREST](https://github.com/begriffs/postgrest)                   | PostgreSQL                                                                                                                    | REST                                                                      | Haskell                             | MIT                                                 | 10464&nbsp;★; 1366&nbsp;commits, latest&nbsp;2018-01-31 | [Official Docker image](https://hub.docker.com/r/begriffs/postgrest/).                                                                     |
-| [pREST](https://github.com/prest/prest)                              | PostgreSQL                                                                                                                    | REST                                                                      | Go                                  | MIT                                                 | 1637&nbsp;★; 409&nbsp;commits, latest&nbsp;2018-02-27   | [Official Docker image](https://hub.docker.com/r/prest/prest/).                                                                            |
-| [RESTHeart](https://github.com/SoftInstigate/restheart)              | MongoDB                                                                                                                       | REST                                                                      | Java                                | GNU AGPLv3                                          | 441&nbsp;★; 1380&nbsp;commits, latest&nbsp;2018-03-06   | [Official Docker image](https://hub.docker.com/r/softinstigate/restheart/).                                                                |
-| [sandman2](https://github.com/jeffknupp/sandman2)                    | All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others).                                          | REST                                                                      | Python 2/3                          | Apache 2.0                                          | 710&nbsp;★; 129&nbsp;commits, latest&nbsp;2017-03-06    |                                                                                                                                            |
-| [tuql](https://github.com/bradleyboy/tuql)                           | SQLite 3 or SQL infile                                                                                                        | GraphQL                                                                   | JavaScript (Node.js)                | MIT                                                 | 243&nbsp;★; 52&nbsp;commits, latest&nbsp;2018-02-16     |                                                                                                                                            |
-| [xmysql](https://github.com/o1lab/xmysql)                            | MySQL                                                                                                                         | REST                                                                      | JavaScript (Node.js)                | MIT                                                 | 1767&nbsp;★; 218&nbsp;commits, latest&nbsp;2018-02-26   | [Official Docker image](https://hub.docker.com/r/markuman/xmysql/).                                                                        |
-| [ZenQuery](https://github.com/BjoernKW/ZenQuery)                     | PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and [others](https://github.com/BjoernKW/ZenQuery#database) | REST                                                                      | Java (JavaScript for the front-end) | Apache 2.0                                          | 31&nbsp;★; 282&nbsp;commits, latest&nbsp;2017-01-31     | Read-only.                                                                                                                                 |
+<table>
+  <tr>
+    <th>Project name/link</th>
+    <th>Database(s) supported</th>
+    <th>API type</th>
+    <th>Implementation language</th>
+    <th>License</th>
+    <th>GitHub stats</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/arangodb/arangodb">ArangoDB</a></td>
+    <td>ArangoDB</td>
+    <td>REST</td>
+    <td>C++</td>
+    <td>Apache 2.0</td>
+    <td>5617&nbsp;★; 42320&nbsp;commits, latest&nbsp;2018-05-09</td>
+    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/arangodb/arangodb/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/apache/couchdb">CouchDB</a></td>
+    <td>CouchDB</td>
+    <td>REST</td>
+    <td>Erlang</td>
+    <td>Apache 2.0</td>
+    <td>3622&nbsp;★; 11128&nbsp;commits, latest&nbsp;2018-05-02</td>
+    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/simonw/datasette">Datasette</a></td>
+    <td>SQLite 3</td>
+    <td>REST</td>
+    <td>Python 3</td>
+    <td>Apache 2.0</td>
+    <td>1413&nbsp;★; 370&nbsp;commits, latest&nbsp;2018-05-06</td>
+    <td>Read-only. <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dgraph-io/dgraph">Dgraph</a></td>
+    <td>Dgraph</td>
+    <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
+    <td>Go</td>
+    <td>GNU AGPLv3</td>
+    <td>5520&nbsp;★; 2403&nbsp;commits, latest&nbsp;2018-05-03</td>
+    <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dreamfactorysoftware/dreamfactory">DreamFactory</a></td>
+    <td>MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and <a href="https://www.dreamfactory.com/products">others</a>.</td>
+    <td>REST</td>
+    <td>PHP 5</td>
+    <td>Apache 2.0, proprietary (optional extras)</td>
+    <td>791&nbsp;★; 800&nbsp;commits, latest&nbsp;2018-02-25</td>
+    <td><a href="https://hub.docker.com/r/dreamfactorysoftware/df-docker/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/pyeve/eve">Eve</a></td>
+    <td>MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy (SQL databases).</td>
+    <td>REST</td>
+    <td>Python 2/3</td>
+    <td>BSD (three-clause)</td>
+    <td>4968&nbsp;★; 2817&nbsp;commits, latest&nbsp;2018-05-09</td>
+    <td>The SQLAlchemy extension isn&#39;t automatic. It requires the user to write SQLAlchemy mappings.</td>
+  </tr>
+  <tr>
+    <td><a href="https://bitbucket.org/prometheus/htsql/src">HTSQL</a></td>
+    <td>MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)</td>
+    <td>REST</td>
+    <td>Python 2</td>
+    <td>GNU AGPLv3, proprietary (Oracle and MS SQL support)</td>
+    <td>n/a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/neo4j-graphql/neo4j-graphql">neo4j-graphql</a></td>
+    <td>Neo4j</td>
+    <td>GraphQL</td>
+    <td>Kotlin</td>
+    <td>Apache 2.0</td>
+    <td>198&nbsp;★; 125&nbsp;commits, latest&nbsp;2018-04-30</td>
+    <td>Can generate a GraphQL API from an existing database or derive a new database model from a GraphQL schema and auto-generate the resolvers.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/orientechnologies/orientdb">OrientDB</a></td>
+    <td>OrientDB</td>
+    <td>REST</td>
+    <td>Java</td>
+    <td>Apache 2.0</td>
+    <td>3463&nbsp;★; 16762&nbsp;commits, latest&nbsp;2018-05-08</td>
+    <td>A database with a built-in REST API. <a href="https://store.docker.com/images/orientdb">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/mevdschee/php-crud-api">PHP-CRUD-API</a></td>
+    <td>MySQL, PostgreSQL, MS SQL Server 2012. Limited support for SQLite 3.</td>
+    <td>REST</td>
+    <td>PHP 5</td>
+    <td>MIT</td>
+    <td>1442&nbsp;★; 1041&nbsp;commits, latest&nbsp;2018-05-05</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/graphile/postgraphile">PostGraphile</a></td>
+    <td>PostgreSQL</td>
+    <td>GraphQL</td>
+    <td>TypeScript (Node.js)</td>
+    <td>MIT</td>
+    <td>5263&nbsp;★; 884&nbsp;commits, latest&nbsp;2018-05-09</td>
+    <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/PostgREST/postgrest">PostgREST</a></td>
+    <td>PostgreSQL</td>
+    <td>REST</td>
+    <td>Haskell</td>
+    <td>MIT</td>
+    <td>10710&nbsp;★; 1381&nbsp;commits, latest&nbsp;2018-05-04</td>
+    <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/prest/prest">pREST</a></td>
+    <td>PostgreSQL</td>
+    <td>REST</td>
+    <td>Go</td>
+    <td>MIT</td>
+    <td>1676&nbsp;★; 415&nbsp;commits, latest&nbsp;2018-05-06</td>
+    <td><a href="https://hub.docker.com/r/prest/prest/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SoftInstigate/restheart">RESTHeart</a></td>
+    <td>MongoDB</td>
+    <td>REST</td>
+    <td>Java</td>
+    <td>GNU AGPLv3</td>
+    <td>458&nbsp;★; 1439&nbsp;commits, latest&nbsp;2018-05-09</td>
+    <td><a href="https://hub.docker.com/r/softinstigate/restheart/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jeffknupp/sandman2">sandman2</a></td>
+    <td>All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others).</td>
+    <td>REST</td>
+    <td>Python 2/3</td>
+    <td>Apache 2.0</td>
+    <td>750&nbsp;★; 133&nbsp;commits, latest&nbsp;2018-05-07</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/bradleyboy/tuql">tuql</a></td>
+    <td>SQLite 3 or SQL infile</td>
+    <td>GraphQL</td>
+    <td>JavaScript (Node.js)</td>
+    <td>MIT</td>
+    <td>255&nbsp;★; 52&nbsp;commits, latest&nbsp;2018-02-16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/o1lab/xmysql">xmysql</a></td>
+    <td>MySQL</td>
+    <td>REST</td>
+    <td>JavaScript (Node.js)</td>
+    <td>MIT</td>
+    <td>1853&nbsp;★; 227&nbsp;commits, latest&nbsp;2018-05-07</td>
+    <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
+    <td>PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and <a href="https://github.com/BjoernKW/ZenQuery#database">others</a></td>
+    <td>REST</td>
+    <td>Java (JavaScript for the front-end)</td>
+    <td>Apache 2.0</td>
+    <td>32&nbsp;★; 282&nbsp;commits, latest&nbsp;2017-01-31</td>
+    <td>Read-only.</td>
+  </tr>
+</table>
 
 
-GitHub stats updated 2018-03-09. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2018-05-09. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Related projects
 

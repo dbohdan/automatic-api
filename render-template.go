@@ -19,8 +19,8 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/a8m/mark"
 	"github.com/magiconair/properties"
-	"github.com/olekukonko/tablewriter"
 )
 
 type entry struct {
@@ -107,22 +107,34 @@ func entriesToTable(entries []entry) (tbl table) {
 	return tbl
 }
 
-// Convert a table to its Markdown representation. Each column in the returned
-// Markdown will have a consistent width to be more readable as plain text.
+// <p>foo</p> -> foo
+func stripP(html string) (res string) {
+	p := regexp.MustCompile("^<p>(.*?)</p>$")
+	found := p.FindStringSubmatch(html)
+	if len(found) == 2 {
+		return found[1]
+	}
+	return html
+}
+
+// Convert a table with each cell containing Markdown to an HTML <table>
+// representation.
 func (tbl table) Format() (res string) {
-	buffer := bytes.NewBufferString("")
-	tw := tablewriter.NewWriter(buffer)
-	tw.SetHeader(tbl[0])
-	tw.SetAutoFormatHeaders(false)
-	tw.SetAutoWrapText(false)
-	tw.SetBorders(tablewriter.Border{
-		Left:   true,
-		Top:    false,
-		Right:  true,
-		Bottom: false})
-	tw.SetCenterSeparator("|")
-	tw.AppendBulk(tbl[1:])
-	tw.Render()
+	buffer := bytes.NewBufferString("<table>\n")
+	buffer.WriteString("  <tr>\n")
+	for _, h := range tbl[0] {
+		buffer.WriteString(fmt.Sprintf("    <th>%s</th>\n", h))
+	}
+	buffer.WriteString("  </tr>\n")
+	for _, row := range tbl[1:] {
+		buffer.WriteString("  <tr>\n")
+		for _, col := range row {
+			colHTML := stripP(mark.Render(col))
+			buffer.WriteString(fmt.Sprintf("    <td>%s</td>\n", colHTML))
+		}
+		buffer.WriteString("  </tr>\n")
+	}
+	buffer.WriteString("</table>\n")
 	return buffer.String()
 }
 
@@ -162,23 +174,23 @@ func queryGitHub(token string, query string) (body []byte, err error) {
 func buildStatsQuery(repos []repo) (query string, err error) {
 	repoQuery := `r%d: repository(owner: "%s", name: "%s") { ...ProjStats }`
 	projStatsFragment := `
-		fragment ProjStats on Repository {
-		  name
-		  defaultBranchRef {
-		    target {
-		      ... on Commit {
-		        authoredDate
-		        history {
-		          totalCount
-		        }
-		      }
-		    }
-		  }
-		  stargazers {
-		    totalCount
-		  }
-		}
-	`
+        fragment ProjStats on Repository {
+          name
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                authoredDate
+                history {
+                  totalCount
+                }
+              }
+            }
+          }
+          stargazers {
+            totalCount
+          }
+        }
+    `
 	queryBuf := bytes.NewBufferString("{\n")
 	safe, err := regexp.Compile("^[a-zA-Z0-9_-]+$")
 	if err != nil {
