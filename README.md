@@ -16,7 +16,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>C++</td>
     <td>Apache 2.0</td>
-    <td>5617 ★; 42320 commits, latest 2018-05-09</td>
+    <td>5912 ★; 42724 commits, latest 2018-07-10</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/arangodb/arangodb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>3623 ★; 11128 commits, latest 2018-05-02</td>
+    <td>3720 ★; 11165 commits, latest 2018-02-09</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -34,7 +34,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Python 3</td>
     <td>Apache 2.0</td>
-    <td>1413 ★; 370 commits, latest 2018-05-06</td>
+    <td>1653 ★; 509 commits, latest 2018-07-10</td>
     <td>Read-only. <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
     <td>Go</td>
     <td>Apache 2.0 with a &quot;no selling&quot; restriction</td>
-    <td>5520 ★; 2403 commits, latest 2018-05-03</td>
+    <td>5890 ★; 2460 commits, latest 2018-07-10</td>
     <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>PHP 5</td>
     <td>Apache 2.0, proprietary (optional extras)</td>
-    <td>791 ★; 800 commits, latest 2018-02-25</td>
+    <td>806 ★; 800 commits, latest 2018-02-25</td>
     <td><a href="https://hub.docker.com/r/dreamfactorysoftware/df-docker/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD (three-clause)</td>
-    <td>4970 ★; 2817 commits, latest 2018-05-09</td>
+    <td>5088 ★; 2867 commits, latest 2018-07-09</td>
     <td>The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>GraphQL</td>
     <td>Kotlin</td>
     <td>Apache 2.0</td>
-    <td>198 ★; 125 commits, latest 2018-04-30</td>
+    <td>218 ★; 130 commits, latest 2018-06-16</td>
     <td>Can generate a GraphQL API from an existing database or derive a new database model from a GraphQL schema and auto-generate the resolvers.</td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Java</td>
     <td>Apache 2.0</td>
-    <td>3463 ★; 16762 commits, latest 2018-05-08</td>
+    <td>3545 ★; 16998 commits, latest 2018-07-09</td>
     <td>A database with a built-in REST API. <a href="https://store.docker.com/images/orientdb">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -97,7 +97,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>PHP 5</td>
     <td>MIT</td>
-    <td>1442 ★; 1041 commits, latest 2018-05-05</td>
+    <td>1553 ★; 1045 commits, latest 2018-05-19</td>
     <td></td>
   </tr>
   <tr>
@@ -106,7 +106,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>GraphQL</td>
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
-    <td>5263 ★; 884 commits, latest 2018-05-09</td>
+    <td>5505 ★; 914 commits, latest 2018-07-04</td>
     <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -115,7 +115,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>10710 ★; 1381 commits, latest 2018-05-04</td>
+    <td>10992 ★; 1400 commits, latest 2018-06-22</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>1676 ★; 415 commits, latest 2018-05-06</td>
+    <td>1739 ★; 432 commits, latest 2018-07-10</td>
     <td><a href="https://hub.docker.com/r/prest/prest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -133,7 +133,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Java</td>
     <td>GNU AGPLv3</td>
-    <td>458 ★; 1439 commits, latest 2018-05-09</td>
+    <td>480 ★; 1475 commits, latest 2018-07-07</td>
     <td><a href="https://hub.docker.com/r/softinstigate/restheart/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Python 2/3</td>
     <td>Apache 2.0</td>
-    <td>750 ★; 133 commits, latest 2018-05-07</td>
+    <td>793 ★; 136 commits, latest 2018-05-27</td>
     <td></td>
   </tr>
   <tr>
@@ -151,7 +151,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>GraphQL</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>255 ★; 52 commits, latest 2018-02-16</td>
+    <td>267 ★; 52 commits, latest 2018-02-16</td>
     <td></td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>1853 ★; 227 commits, latest 2018-05-07</td>
+    <td>3056 ★; 237 commits, latest 2018-06-15</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -175,7 +175,7 @@ The following is a list of open source tools that automatically expose a REST, G
 </table>
 
 
-GitHub stats updated 2018-05-09. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2018-07-10. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Related projects
 
