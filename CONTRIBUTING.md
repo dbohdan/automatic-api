@@ -10,6 +10,6 @@ To qualify as "automatic" for our purposes, a piece of software that exposes the
 
 A submitted project must be at least alpha quality, that is, ready for users to test. A project that is no longer actively maintained must be more mature than that and already tested by users.
 
-Please only submit open source or [open core](https://en.wikipedia.org/wiki/Open_core) software you can run on your own servers.
+Self-hosted open source and proprietary software is allowed on this list, as well as software as a service (SaaS) if it works with an existing database. (E.g., a SaaS REST API that connects to the user's PostgreSQL server can be on the list, but Amazon DynamoDB can't.) Proprietary software and SaaS that is out of beta must have its pricing publicly available. Enterprise "call us" pricing is not allowed.
 
 Projects that enhance those already on the list or use them as a component (applications, client libraries, frameworks, etc.) should be added to the [Related projects](https://github.com/dbohdan/automatic-api/wiki/Related-projects) wiki page. They may be open source, proprietary, or software as a service.
