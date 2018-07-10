@@ -1,0 +1,7 @@
+name:     subZero
+url:      https://subzero.cloud
+db:       PostgreSQL
+api:      REST and GraphQL
+lang:     Haskell, Lua
+license:  Proprietary
+notes:

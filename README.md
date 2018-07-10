@@ -1,4 +1,4 @@
-The following is a list of open source tools that automatically expose a REST, GraphQL, or another kind of API for your database, as well as databases with a built-in HTTP API.
+The following is a list of tools that automatically expose a REST, GraphQL, or another kind of API for your database, as well as databases with a built-in HTTP API.
 
 <table>
   <tr>
@@ -25,7 +25,7 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>3720 ★; 11165 commits, latest 2018-02-09</td>
+    <td>3722 ★; 11165 commits, latest 2018-02-09</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -143,6 +143,15 @@ The following is a list of open source tools that automatically expose a REST, G
     <td>Python 2/3</td>
     <td>Apache 2.0</td>
     <td>793 ★; 136 commits, latest 2018-05-27</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://subzero.cloud/">subZero</a></td>
+    <td>PostgreSQL</td>
+    <td>REST and GraphQL</td>
+    <td>Haskell, Lua</td>
+    <td>Proprietary</td>
+    <td>n/a</td>
     <td></td>
   </tr>
   <tr>
