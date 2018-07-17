@@ -116,7 +116,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
     <td>5527 ★; 918 commits, latest 2018-07-14</td>
-    <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
+    <td>Formerly &quot;PostGraphQL&quot;. <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/PostgREST/postgrest">PostgREST</a></td>
