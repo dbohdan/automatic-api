@@ -1,4 +1,4 @@
-name:     Hasura
+name:     Hasura GraphQL Engine
 url:      https://github.com/hasura/graphql-engine
 db:       PostgreSQL
 api:      GraphQL

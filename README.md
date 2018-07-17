@@ -25,7 +25,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>3732 ★; 11189 commits, latest 2018-07-16</td>
+    <td>3732 ★; 11191 commits, latest 2018-07-16</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -65,12 +65,12 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/hasura/graphql-engine">Hasura</a></td>
+    <td><a href="https://github.com/hasura/graphql-engine">Hasura GraphQL Engine</a></td>
     <td>PostgreSQL</td>
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>GNU AGPLv3</td>
-    <td>1291 ★; 92 commits, latest 2018-07-16</td>
+    <td>1325 ★; 92 commits, latest 2018-07-16</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>11043 ★; 1400 commits, latest 2018-06-22</td>
+    <td>11044 ★; 1400 commits, latest 2018-06-22</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
