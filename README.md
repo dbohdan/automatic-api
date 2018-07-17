@@ -65,6 +65,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/hasura/graphql-engine">Hasura</a></td>
+    <td>PostgreSQL</td>
+    <td>GraphQL</td>
+    <td>Haskell</td>
+    <td>GNU AGPLv3</td>
+    <td>1289 ★; 92 commits, latest 2018-07-16</td>
+    <td></td>
+  </tr>
+  <tr>
     <td><a href="https://bitbucket.org/prometheus/htsql/src">HTSQL</a></td>
     <td>MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)</td>
     <td>REST</td>

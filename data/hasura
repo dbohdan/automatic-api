@@ -1,0 +1,6 @@
+name:     Hasura
+url:      https://github.com/hasura/graphql-engine
+db:       PostgreSQL
+api:      GraphQL
+lang:     Haskell
+license:  GNU AGPLv3
