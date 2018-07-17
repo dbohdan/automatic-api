@@ -16,7 +16,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C++</td>
     <td>Apache 2.0</td>
-    <td>5912 ★; 42724 commits, latest 2018-07-10</td>
+    <td>5964 ★; 42787 commits, latest 2018-07-16</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/arangodb/arangodb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>3722 ★; 11165 commits, latest 2018-02-09</td>
+    <td>3732 ★; 11189 commits, latest 2018-07-16</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -34,7 +34,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 3</td>
     <td>Apache 2.0</td>
-    <td>1653 ★; 509 commits, latest 2018-07-10</td>
+    <td>1665 ★; 515 commits, latest 2018-07-16</td>
     <td>Read-only. <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
     <td>Go</td>
     <td>Apache 2.0 with a &quot;no selling&quot; restriction</td>
-    <td>5890 ★; 2460 commits, latest 2018-07-10</td>
+    <td>5933 ★; 2464 commits, latest 2018-07-14</td>
     <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>PHP 5</td>
     <td>Apache 2.0, proprietary (optional extras)</td>
-    <td>806 ★; 800 commits, latest 2018-02-25</td>
+    <td>812 ★; 800 commits, latest 2018-02-25</td>
     <td><a href="https://hub.docker.com/r/dreamfactorysoftware/df-docker/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD (three-clause)</td>
-    <td>5088 ★; 2867 commits, latest 2018-07-09</td>
+    <td>5096 ★; 2869 commits, latest 2018-07-15</td>
     <td>The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Java</td>
     <td>Apache 2.0</td>
-    <td>3545 ★; 16998 commits, latest 2018-07-09</td>
+    <td>3554 ★; 17017 commits, latest 2018-07-13</td>
     <td>A database with a built-in REST API. <a href="https://store.docker.com/images/orientdb">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -97,7 +97,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>PHP 5</td>
     <td>MIT</td>
-    <td>1553 ★; 1045 commits, latest 2018-05-19</td>
+    <td>1565 ★; 1045 commits, latest 2018-05-19</td>
     <td></td>
   </tr>
   <tr>
@@ -106,7 +106,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
-    <td>5505 ★; 914 commits, latest 2018-07-04</td>
+    <td>5527 ★; 918 commits, latest 2018-07-14</td>
     <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -115,7 +115,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>10992 ★; 1400 commits, latest 2018-06-22</td>
+    <td>11043 ★; 1400 commits, latest 2018-06-22</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>1739 ★; 432 commits, latest 2018-07-10</td>
+    <td>1748 ★; 432 commits, latest 2018-07-10</td>
     <td><a href="https://hub.docker.com/r/prest/prest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -133,7 +133,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Java</td>
     <td>GNU AGPLv3</td>
-    <td>480 ★; 1475 commits, latest 2018-07-07</td>
+    <td>482 ★; 1478 commits, latest 2018-07-13</td>
     <td><a href="https://hub.docker.com/r/softinstigate/restheart/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -142,11 +142,11 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 2/3</td>
     <td>Apache 2.0</td>
-    <td>793 ★; 136 commits, latest 2018-05-27</td>
+    <td>795 ★; 136 commits, latest 2018-05-27</td>
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://subzero.cloud/">subZero</a></td>
+    <td><a href="https://subzero.cloud">subZero</a></td>
     <td>PostgreSQL</td>
     <td>REST and GraphQL</td>
     <td>Haskell, Lua</td>
@@ -160,7 +160,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>267 ★; 52 commits, latest 2018-02-16</td>
+    <td>269 ★; 52 commits, latest 2018-02-16</td>
     <td></td>
   </tr>
   <tr>
@@ -169,7 +169,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>3056 ★; 237 commits, latest 2018-06-15</td>
+    <td>3087 ★; 239 commits, latest 2018-07-15</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -178,13 +178,13 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Java (JavaScript for the front-end)</td>
     <td>Apache 2.0</td>
-    <td>32 ★; 282 commits, latest 2017-01-31</td>
+    <td>33 ★; 282 commits, latest 2017-01-31</td>
     <td>Read-only.</td>
   </tr>
 </table>
 
 
-GitHub stats updated 2018-07-10. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2018-07-17. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Related projects
 
