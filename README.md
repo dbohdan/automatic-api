@@ -70,8 +70,8 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>GNU AGPLv3</td>
-    <td>1289 ★; 92 commits, latest 2018-07-16</td>
-    <td></td>
+    <td>1291 ★; 92 commits, latest 2018-07-16</td>
+    <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
     <td><a href="https://bitbucket.org/prometheus/htsql/src">HTSQL</a></td>
