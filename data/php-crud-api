@@ -1,6 +1,7 @@
 name:     PHP-CRUD-API
 url:      https://github.com/mevdschee/php-crud-api
-db:       MySQL, PostgreSQL, MS SQL Server 2012. Limited support for SQLite 3.
+db:       MySQL, PostgreSQL, MS SQL Server.
 api:      REST
-lang:     PHP 5
+lang:     PHP 7
 license:  MIT
+notes:    Supports GIS + automatic OpenAPI 3.0 docs
