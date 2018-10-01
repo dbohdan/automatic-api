@@ -70,7 +70,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>GNU AGPLv3</td>
-    <td>4107 ★; 283 commits, latest 2018-10-08</td>
+    <td>4108 ★; 283 commits, latest 2018-10-08</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -102,12 +102,12 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
   </tr>
   <tr>
     <td><a href="https://github.com/mevdschee/php-crud-api">PHP-CRUD-API</a></td>
-    <td>MySQL, PostgreSQL, MS SQL Server 2012. Limited support for SQLite 3.</td>
+    <td>MySQL, PostgreSQL, MS SQL Server.</td>
     <td>REST</td>
-    <td>PHP 5</td>
+    <td>PHP 7</td>
     <td>MIT</td>
     <td>1729 ★; 1205 commits, latest 2018-10-08</td>
-    <td></td>
+    <td>Supports GIS + automatic OpenAPI 3.0 docs.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/graphile/postgraphile">PostGraphile</a></td>
