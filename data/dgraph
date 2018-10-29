@@ -3,6 +3,6 @@ url:      https://github.com/dgraph-io/dgraph
 db:       Dgraph
 api:      [GraphQL+-](https://docs.dgraph.io/query-language/), a GraphQL derivative
 lang:     Go
-license:  Apache 2.0 with a "no selling" restriction
+license:  Apache 2.0
 notes:    A database with a built-in GraphQL-like API. \
           [Official Docker image](https://hub.docker.com/r/dgraph/dgraph/).

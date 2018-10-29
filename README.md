@@ -42,7 +42,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>Dgraph</td>
     <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
     <td>Go</td>
-    <td>Apache 2.0 with a &quot;no selling&quot; restriction</td>
+    <td>Apache 2.0</td>
     <td>6617 ★; 2669 commits, latest 2018-10-29</td>
     <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
