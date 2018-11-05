@@ -173,6 +173,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/nicolasff/webdis">Webdis </a></td>
+    <td>Redis</td>
+    <td>REST</td>
+    <td>C</td>
+    <td>BSD (two-clause)</td>
+    <td>2058 ★; 399 commits, latest 2018-08-11</td>
+    <td>Supports pub/sub with chunked transfer encoding and WebSockets.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/o1lab/xmysql">xmysql</a></td>
     <td>MySQL</td>
     <td>REST</td>
