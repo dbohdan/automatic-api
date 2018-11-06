@@ -173,7 +173,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/nicolasff/webdis">Webdis </a></td>
+    <td><a href="https://github.com/nicolasff/webdis">Webdis</a></td>
     <td>Redis</td>
     <td>REST</td>
     <td>C</td>

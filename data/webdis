@@ -1,4 +1,4 @@
-name:     Webdis 
+name:     Webdis
 url:      https://github.com/nicolasff/webdis
 db:       Redis
 api:      REST
