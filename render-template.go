@@ -33,11 +33,14 @@ type entry struct {
 	Stats   string `properties:"stats,default="`
 	Notes   string `properties:"notes,default="`
 }
+
 type table [][]string
+
 type repo struct {
 	Name  string
 	Owner string
 }
+
 type projStats struct {
 	Name             string
 	DefaultBranchRef struct {
@@ -52,6 +55,7 @@ type projStats struct {
 		TotalCount int
 	}
 }
+
 type gitHubResponse struct {
 	Data    map[string]projStats
 	Message string
@@ -64,17 +68,20 @@ func loadEntries(glob string) (entries []entry, err error) {
 	if err != nil {
 		return nil, err
 	}
+
 	entries = make([]entry, len(matches))
 	for i, match := range matches {
 		p, err := properties.LoadFile(match, properties.UTF8)
 		if err != nil {
 			return nil, err
 		}
+
 		err = p.Decode(&entries[i])
 		if err != nil {
 			return nil, err
 		}
 	}
+
 	return entries, nil
 }
 
@@ -93,6 +100,7 @@ func entriesToTable(entries []entry) (tbl table) {
 	for i, ent := range entries {
 		j := i + 1
 		tbl[j] = make([]string, 7)
+
 		tbl[j][0] = fmt.Sprintf("[%s](%s)",
 			html.EscapeString(ent.Name),
 			html.EscapeString(ent.URL))
@@ -104,6 +112,7 @@ func entriesToTable(entries []entry) (tbl table) {
 		tbl[j][5] = ent.Stats
 		tbl[j][6] = ent.Notes
 	}
+
 	return tbl
 }
 
@@ -121,11 +130,15 @@ func stripP(html string) (res string) {
 // representation.
 func (tbl table) Format() (res string) {
 	buffer := bytes.NewBufferString("<table>\n")
+
 	buffer.WriteString("  <tr>\n")
+
 	for _, h := range tbl[0] {
 		buffer.WriteString(fmt.Sprintf("    <th>%s</th>\n", h))
 	}
+
 	buffer.WriteString("  </tr>\n")
+
 	for _, row := range tbl[1:] {
 		buffer.WriteString("  <tr>\n")
 		for _, col := range row {
@@ -135,7 +148,9 @@ func (tbl table) Format() (res string) {
 		}
 		buffer.WriteString("  </tr>\n")
 	}
+
 	buffer.WriteString("</table>\n")
+
 	return buffer.String()
 }
 
@@ -145,28 +160,33 @@ func queryGitHub(token string, query string) (body []byte, err error) {
 
 	wrapper := map[string]string{}
 	wrapper["query"] = query
+
 	jsonReq, err := json.Marshal(wrapper)
 	if err != nil {
 		return nil, err
 	}
+
 	jsonReqBuf := bytes.NewBuffer([]byte(jsonReq))
 
 	req, err := http.NewRequest("POST", url, jsonReqBuf)
 	if err != nil {
 		return nil, err
 	}
+
 	req.Header.Set("Authorization", fmt.Sprintf("bearer %s", token))
 	req.Header.Set("Content-Type", "application/graphql")
-	client := &http.Client{}
 
+	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
 		return nil, err
 	}
+
 	body, err = ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
 	}
+
 	return body, nil
 }
 
@@ -193,10 +213,12 @@ func buildStatsQuery(repos []repo) (query string, err error) {
 		}
 	`
 	queryBuf := bytes.NewBufferString("{\n")
+
 	safe, err := regexp.Compile("^[a-zA-Z0-9_-]+$")
 	if err != nil {
 		return "", err
 	}
+
 	for i, r := range repos {
 		// We do not make a fuss about empty repository entries. We
 		// simply skip them here and return an empty string for them at
@@ -206,11 +228,13 @@ func buildStatsQuery(repos []repo) (query string, err error) {
 				safe.MatchString(r.Name)) {
 				return "", fmt.Errorf("Bad repo data: %v", r)
 			}
+
 			t := fmt.Sprintf(repoQuery, i, r.Owner, r.Name)
 			queryBuf.WriteString(t)
 			queryBuf.WriteString("\n")
 		}
 	}
+
 	queryBuf.WriteString("}\n")
 	queryBuf.WriteString(projStatsFragment)
 
@@ -225,36 +249,44 @@ func fetchGitHubStats(token string, repos []repo) (statsHTML []string,
 	if err != nil {
 		return nil, err
 	}
+
 	respBody, err := queryGitHub(token, query)
 	if err != nil {
 		return nil, err
 	}
+
 	var respData gitHubResponse
 	err = json.Unmarshal(respBody, &respData)
 	if err != nil {
 		return nil, err
 	}
+
 	if respData.Message != "" {
 		return nil, fmt.Errorf("GitHub API: %s", respData.Message)
 	}
+
 	if len(respData.Errors) > 0 {
 		return nil, fmt.Errorf("GitHub API: %s",
 			respData.Errors[0]["message"].(string))
 	}
+
 	statsHTML = make([]string, len(repos))
 	for k, v := range respData.Data {
 		i, err := strconv.Atoi(k[1:])
 		if err != nil {
 			return nil, err
 		}
+
 		latestCommitDate := v.DefaultBranchRef.Target.AuthoredDate.
 			Format("2006-01-02")
+
 		statsHTML[i] = fmt.Sprintf(
 			"%d&nbsp;★; %d&nbsp;commits, latest&nbsp;%s",
 			v.Stargazers.TotalCount,
 			v.DefaultBranchRef.Target.History.TotalCount,
 			latestCommitDate)
 	}
+
 	return statsHTML, nil
 }
 
@@ -263,6 +295,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	entries, err := loadEntries("data/*")
 	if err != nil {
 		log.Fatal(err)
@@ -273,6 +306,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	repos := make([]repo, len(entries))
 	for i, ent := range entries {
 		found := re.FindStringSubmatch(ent.URL)
@@ -283,10 +317,12 @@ func main() {
 			entries[i].Stats = "n/a"
 		}
 	}
+
 	statsHTML, err := fetchGitHubStats(os.Getenv("GITHUB_TOKEN"), repos)
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	for i, s := range statsHTML {
 		if s != "" {
 			entries[i].Stats = s
