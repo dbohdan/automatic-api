@@ -143,7 +143,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>PHP</td>
     <td>MIT</td>
     <td>35 ★; 743 commits, latest 2019-10-01</td>
-    <td><a href="https://prestigeframework.com/">Official Website</a>.</td>
+    <td></td>
   </tr>
   <tr>
     <td><a href="https://github.com/SoftInstigate/restheart">RESTHeart</a></td>
