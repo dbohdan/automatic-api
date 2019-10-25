@@ -137,6 +137,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/prest/prest/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/geekypedia/pRESTige">pRESTige</a></td>
+    <td>MySQL</td>
+    <td>REST</td>
+    <td>PHP</td>
+    <td>MIT</td>
+    <td>35 ★; 743 commits, latest 2019-10-01</td>
+    <td><a href="https://prestigeframework.com/">Official Website</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/SoftInstigate/restheart">RESTHeart</a></td>
     <td>MongoDB</td>
     <td>REST</td>
