@@ -40,11 +40,11 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
   <tr>
     <td><a href="https://github.com/dgraph-io/dgraph">Dgraph</a></td>
     <td>Dgraph</td>
-    <td><a href="https://docs.dgraph.io/query-language/">GraphQL+-</a>, a GraphQL derivative</td>
+    <td>GraphQL (since version 2.0.0-rc1)</td>
     <td>Go</td>
     <td>Apache 2.0</td>
     <td>12496 ★; 4141 commits, latest 2020-02-22</td>
-    <td>A database with a built-in GraphQL-like API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
+    <td>A database with a built-in GraphQL API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/dreamfactorysoftware/dreamfactory">DreamFactory</a></td>
