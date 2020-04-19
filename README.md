@@ -208,6 +208,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>46 ★; 283 commits, latest 2018-10-16</td>
     <td>Read-only.</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/mevdschee/pathql-go">PathQL-Go</a></td>
+    <td>PostgreSQL, MySQL and other</td>
+    <td>PathQL</td>
+    <td>Go</td>
+    <td>MIT</td>
+    <td>0</td>
+    <td><a href="https://pathql.org">PathQL</a> implementation in 300 lines of code.</td>
+  </tr>
 </table>
 
 
