@@ -1,6 +1,6 @@
 name:     HTSQL
-url:      https://bitbucket.org/prometheus/htsql/src
+url:      https://github.com/prometheusresearch/htsql
 db:       MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)
 api:      REST
-lang:     Python 2
-license:  GNU AGPLv3, proprietary (Oracle and MS SQL support)
+lang:     Python 3
+license:  Apache 2.0, proprietary (Oracle and MS SQL support)

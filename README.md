@@ -74,12 +74,12 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
-    <td><a href="https://bitbucket.org/prometheus/htsql/src">HTSQL</a></td>
+    <td><a href="https://github.com/prometheusresearch/htsql">HTSQL</a></td>
     <td>MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)</td>
     <td>REST</td>
-    <td>Python 2</td>
-    <td>GNU AGPLv3, proprietary (Oracle and MS SQL support)</td>
-    <td>n/a</td>
+    <td>Python 3</td>
+    <td>Apache 2.0, proprietary (Oracle and MS SQL support)</td>
+    <td>2 ★; 1234 commits, latest 2020-03-16</td>
     <td></td>
   </tr>
   <tr>
