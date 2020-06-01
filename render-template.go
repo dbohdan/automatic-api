@@ -1,6 +1,9 @@
-// A script to generate a README.md from README.md.template and the data
-// in data/. It fetches statistics about the repositories from GitHub.
-// Copyright (c) dbohdan, 2017.
+// This script generates README.md from README.md.template and the data
+// in data/.  It fetches statistics about GitHub repositories from GitHub.
+// For the script to work the environment variable GITHUB_TOKEN must contain
+// a valid personal access token (see https://github.com/settings/tokens).
+//
+// Copyright (c) D. Bohdan 2017, 2018, 2019, 2020.
 // License: MIT.
 package main
 
