@@ -199,6 +199,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>4085 ★; 288 commits, latest 2020-03-26</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
+    <tr>
+    <td><a href="https://github.com/xgenecloud/xgenecloud">XgeneCloud</a></td>
+    <td>PostgreSQL, MySQL, SQL Server, SQLite, MariaDb</td>
+    <td>REST and GraphQL</td>
+    <td>JavaScript (Node.js)</td>
+    <td>Apache 2.0</td>
+    <td>770 ★; 26 commits, latest 2020-06-12</td>
+    <td></td>
+  </tr>
   <tr>
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
     <td>PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and <a href="https://github.com/BjoernKW/ZenQuery#database">others</a></td>
