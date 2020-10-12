@@ -1,8 +1,10 @@
-# How to edit the list
+# Contributing
+
+## Do not edit `README.md` directly
 
 `README.md` is automatically generated from `README.md.template` and the data in [`data/`](./data/). Do not edit `README.md` directly. To update a project's information, edit the corresponding file in `data/`. To add a project, create a new file.
 
-# What projects to submit
+## What projects to submit
 
 (Below, "must" means a hard requirement and "should" means a preference.)
 
