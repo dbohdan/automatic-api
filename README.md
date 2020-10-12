@@ -155,6 +155,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/softinstigate/restheart/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/restsql/restsql">restSQL</a></td>
+    <td>MySQL, PostgreSQL</td>
+    <td>REST</td>
+    <td>JavaScript</td>
+    <td>MIT</td>
+    <td>119 ★; 54 commits, latest 2018-10-18</td>
+    <td><a href="https://hub.docker.com/r/restsql/service/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/jeffknupp/sandman2">sandman2</a></td>
     <td>All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, MS SQL, and others).</td>
     <td>REST</td>
