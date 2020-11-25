@@ -69,7 +69,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>PostgreSQL</td>
     <td>GraphQL</td>
     <td>Haskell</td>
-    <td>GNU AGPLv3</td>
+    <td>Apache 2.0</td>
     <td>19574 ★; 2437 commits, latest 2020-12-04</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
