@@ -230,7 +230,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
     <td>PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and <a href="https://github.com/BjoernKW/ZenQuery#database">others</a></td>
     <td>REST</td>
-    <td>Java (JavaScript for the front-end)</td>
+    <td>Java</td>
     <td>Apache 2.0</td>
     <td>56 ★; 283 commits, latest 2018-10-16</td>
     <td>Read-only.</td>
