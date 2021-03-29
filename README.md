@@ -212,7 +212,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://github.com/xgenecloud/xgenecloud">XgeneCloud</a></td>
     <td>MySQL, PostgreSQL, MS SQL, SQLite, MariaDB, Amazon Aurora</td>
     <td>REST and GraphQL</td>
-    <td>JavaScript</td>
+    <td>JavaScript (Node.js)</td>
     <td>Apache 2.0</td>
     <td>1446 ★; 38 commits, latest 2020-12-20</td>
     <td></td>

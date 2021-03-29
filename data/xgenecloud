@@ -2,6 +2,6 @@ name:     XgeneCloud
 url:      https://github.com/xgenecloud/xgenecloud
 db:       MySQL, PostgreSQL, MS SQL, SQLite, MariaDB, Amazon Aurora
 api:      REST and GraphQL
-lang:     JavaScript
+lang:     JavaScript (Node.js)
 license:  Apache 2.0
 notes:
