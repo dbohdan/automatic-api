@@ -158,7 +158,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://github.com/restsql/restsql">restSQL</a></td>
     <td>MySQL, PostgreSQL</td>
     <td>REST</td>
-    <td>JavaScript</td>
+    <td>Java</td>
     <td>MIT</td>
     <td>124 ★; 54 commits, latest 2018-10-18</td>
     <td><a href="https://hub.docker.com/r/restsql/service/">Official Docker image</a>.</td>
