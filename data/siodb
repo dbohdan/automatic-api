@@ -1,0 +1,10 @@
+name:     Siodb
+url:      https://github.com/siodb/siodb
+db:       Siodb
+api:      REST and SQL
+lang:     C++/Golang
+license:  GNU AGPLv3
+notes:    REST and SQL through REST. \
+          Auto Encryption, indexing and more! \
+          [Try free now in the Siodb DataHub](https://datahub.siodb.io/)
+
