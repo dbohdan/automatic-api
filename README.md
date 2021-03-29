@@ -173,6 +173,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/jeffknupp/sandman2/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/siodb/siodb">Siodb</a></td>
+    <td>Siodb</td>
+    <td>REST</td>
+    <td>C++, Go</td>
+    <td>GNU AGPLv3</td>
+    <td>31 ★; 189 commits, latest 2021-03-29</td>
+    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/siodb/siodb/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://subzero.cloud">subZero</a></td>
     <td>PostgreSQL</td>
     <td>REST and GraphQL</td>
