@@ -29,6 +29,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/juxt/crux">Crux</a></td>
+    <td>Crux</td>
+    <td>REST</td>
+    <td>Clojure</td>
+    <td>MIT</td>
+    <td>1345 ★; 6588 commits, latest 2021-04-06</td>
+    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/juxt/crux-standalone">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/simonw/datasette">Datasette</a></td>
     <td>SQLite 3</td>
     <td>REST</td>
@@ -178,7 +187,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C++, Go</td>
     <td>GNU AGPLv3</td>
-    <td>32 ★; 208 commits, latest 2021-04-22</td>
+    <td>32 ★; 209 commits, latest 2021-04-26</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/siodb/siodb/">Official Docker image</a>.</td>
   </tr>
   <tr>
