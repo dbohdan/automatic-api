@@ -1,0 +1,4 @@
+github.com/magiconair/properties v1.8.5 h1:b6kJs+EmPFMYGkow9GiUyCyOvIwYetYJ3fSaWak/Gls=
+github.com/magiconair/properties v1.8.5/go.mod h1:y3VJvCyxH9uVvJTWEGAELF3aiYNyPKd5NZ3oSwXrF60=
+github.com/rhinoman/go-commonmark v0.0.0-20170821135903-b6e895a10b08 h1:bvVv13F2q+YJPhyMY8Q6/hGJlqsGbW8uDDR2tAUQtVw=
+github.com/rhinoman/go-commonmark v0.0.0-20170821135903-b6e895a10b08/go.mod h1:aRVXYMlNFnQV4B7V0MOiYFWDGiHv+1BxVv1z7R8D8TU=
