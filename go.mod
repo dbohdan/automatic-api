@@ -1,4 +1,4 @@
-module dbohdan.com/automatic-api
+module github.com/dbohdan/automatic-api
 
 go 1.16
 
