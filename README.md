@@ -74,6 +74,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/dreamfactorysoftware/df-docker/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/Softmotions/ejdb">EJDB2</a></td>
+    <td>EJDB2</td>
+    <td>REST</td>
+    <td>C</td>
+    <td>MIT</td>
+    <td>1229 ★; 2512 commits, latest 2021-08-12</td>
+    <td>A database with a built-in REST API. <a href="https://github.com/Softmotions/ejdb">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/pyeve/eve">Eve</a></td>
     <td>MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy (SQL databases).</td>
     <td>REST</td>

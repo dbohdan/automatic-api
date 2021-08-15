@@ -1,0 +1,8 @@
+name:     EJDB2
+url:      https://github.com/Softmotions/ejdb
+db:       EJDB2
+api:      REST
+lang:     C
+license:  MIT
+notes:    A database with a built-in REST API. \
+          [Official Docker image](https://github.com/Softmotions/ejdb).
