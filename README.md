@@ -25,7 +25,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C++</td>
     <td>Apache 2.0</td>
-    <td>13030 ★; 50312 commits, latest 2023-07-11</td>
+    <td>13036 ★; 50321 commits, latest 2023-07-13</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/arangodb/arangodb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -34,7 +34,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache 2.0</td>
-    <td>5745 ★; 13264 commits, latest 2023-07-11</td>
+    <td>5749 ★; 13266 commits, latest 2023-07-13</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 3</td>
     <td>Apache 2.0</td>
-    <td>7969 ★; 2392 commits, latest 2023-07-08</td>
+    <td>7977 ★; 2392 commits, latest 2023-07-08</td>
     <td>Read-only. <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL (since version 2.0.0-rc1)</td>
     <td>Go</td>
     <td>Apache 2.0</td>
-    <td>19439 ★; 5985 commits, latest 2023-07-11</td>
+    <td>19444 ★; 5989 commits, latest 2023-07-13</td>
     <td>A database with a built-in GraphQL API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript</td>
     <td>Propretary (Business Source License 1.1), GNU GPLv3 (after three years)</td>
-    <td>22359 ★; 10514 commits, latest 2023-07-11</td>
+    <td>22397 ★; 10522 commits, latest 2023-07-12</td>
     <td><a href="https://hub.docker.com/r/directus/directus">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD (three-clause)</td>
-    <td>6617 ★; 3393 commits, latest 2023-07-10</td>
+    <td>6618 ★; 3393 commits, latest 2023-07-10</td>
     <td>The SQLAlchemy extension isn't automatic. It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
@@ -97,7 +97,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>Apache 2.0</td>
-    <td>29972 ★; 7431 commits, latest 2023-07-11</td>
+    <td>29977 ★; 7447 commits, latest 2023-07-13</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -115,7 +115,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>25781 ★; 35272 commits, latest 2023-06-30</td>
+    <td>25792 ★; 35272 commits, latest 2023-06-30</td>
     <td>A timeseries database with a built-in REST API. <a href="https://hub.docker.com/_/influxdb">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -133,7 +133,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>36897 ★; 15453 commits, latest 2023-07-11</td>
+    <td>36927 ★; 15453 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Java</td>
     <td>Apache 2.0</td>
-    <td>4615 ★; 21497 commits, latest 2023-07-03</td>
+    <td>4615 ★; 21499 commits, latest 2023-07-12</td>
     <td>A database with a built-in REST API. <a href="https://store.docker.com/images/orientdb">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -151,7 +151,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>PHP 7</td>
     <td>MIT</td>
-    <td>3361 ★; 2097 commits, latest 2023-07-05</td>
+    <td>3363 ★; 2097 commits, latest 2023-07-05</td>
     <td>Supports GIS + automatic OpenAPI 3.0 docs.</td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
-    <td>12036 ★; 1398 commits, latest 2023-06-22</td>
+    <td>12038 ★; 1398 commits, latest 2023-06-22</td>
     <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -169,7 +169,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>20776 ★; 2483 commits, latest 2023-07-08</td>
+    <td>20784 ★; 2484 commits, latest 2023-07-10</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -218,6 +218,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://hub.docker.com/r/jeffknupp/sandman2/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/DEAL-US/Silence">Silence</a></td>
+    <td>MySQL, MariaDB</td>
+    <td>REST</td>
+    <td>Python 3</td>
+    <td>MIT</td>
+    <td>11 ★; 425 commits, latest 2022-12-22</td>
+    <td>Automatically generates REST endpoints to do CRUD operations against the database, test studs, and JS files to access the API.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/siodb/siodb">Siodb</a></td>
     <td>Siodb</td>
     <td>REST</td>
@@ -232,7 +241,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>813 ★; 106 commits, latest 2023-07-02</td>
+    <td>814 ★; 106 commits, latest 2023-07-02</td>
     <td>A SQLite RESTful server</td>
   </tr>
   <tr>
@@ -250,7 +259,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache 2.0</td>
-    <td>53043 ★; 22064 commits, latest 2023-07-11</td>
+    <td>53152 ★; 22139 commits, latest 2023-07-13</td>
     <td>Uses PostgREST. <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
   <tr>
@@ -268,7 +277,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C</td>
     <td>BSD (two-clause)</td>
-    <td>2697 ★; 629 commits, latest 2023-06-14</td>
+    <td>2699 ★; 629 commits, latest 2023-06-14</td>
     <td>Supports pub/sub with chunked transfer encoding and WebSockets.</td>
   </tr>
   <tr>
@@ -277,7 +286,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>TypeScript, Go</td>
     <td>Apache 2.0</td>
-    <td>1757 ★; 1664 commits, latest 2023-07-11</td>
+    <td>1763 ★; 1669 commits, latest 2023-07-13</td>
     <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a>.</td>
   </tr>
   <tr>
@@ -286,7 +295,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Clojure</td>
     <td>MIT</td>
-    <td>2300 ★; 7447 commits, latest 2023-07-10</td>
+    <td>2303 ★; 7453 commits, latest 2023-07-12</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/juxt/xtdb-standalone-rocksdb">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -301,7 +310,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 </table>
 
 
-GitHub stats updated 2023-07-11. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2023-07-13. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Related projects
 
