@@ -1,0 +1,7 @@
+name:     Soul
+url:      https://github.com/thevahidal/soul
+db:       SQLite 3
+api:      REST
+lang:     JavaScript (Node.js)
+license:  MIT
+notes:    A SQLite RESTful server
