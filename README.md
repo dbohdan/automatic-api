@@ -119,6 +119,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>Can generate a GraphQL API from an existing database or derive a new database model from a GraphQL schema and auto-generate the resolvers.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/nocodb/nocodb">NocoDB</a></td>
+    <td>MySQL, PostgreSQL, SQL Server, SQLite</td>
+    <td>REST</td>
+    <td>JavaScript (Node.js)</td>
+    <td>MIT</td>
+    <td>33074 ★; 10224 commits, latest 2022-12-20</td>
+    <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/orientechnologies/orientdb">OrientDB</a></td>
     <td>OrientDB</td>
     <td>REST</td>
@@ -234,15 +243,6 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>BSD (two-clause)</td>
     <td>2619 ★; 615 commits, latest 2022-07-24</td>
     <td>Supports pub/sub with chunked transfer encoding and WebSockets.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/o1lab/xmysql">xmysql</a></td>
-    <td>MySQL</td>
-    <td>REST</td>
-    <td>JavaScript (Node.js)</td>
-    <td>MIT</td>
-    <td>127 ★; 3 commits, latest 2021-05-27</td>
-    <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
