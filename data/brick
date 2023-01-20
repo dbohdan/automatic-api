@@ -1,0 +1,7 @@
+name:     The Brick
+url:      https://github.com/lorint/brick
+db:       PostgreSQL, MySQL, Oracle, Microsoft SQL Server, SQLite
+api:      REST
+lang:     Ruby (Using the Rails ecosystem)
+license:  MIT
+notes:    Auto-creates API endpoints and OpenAPI / Swagger documentation for tables and views.  Here's a **[video demonstration](https://user-images.githubusercontent.com/5301131/213583650-91256f35-ee03-4cec-abec-e5a9191508f5.mp4)** of how to start from scratch.  Manages multiple versions of endpoints such that when some views are redefined in a newer API version, the other untouched views still get inherited from a previous version.  Programmatic hooks are available to offer fine-grained control over which tables and views are surfaced, to control security, and define which CRUD actions are allowed.  Querystring parameters control pagination / filtering / ordering.  In addition to API creation, Brick can also automatically build out a full CRUD app, and show partial ERD diagrams in order to visualise table relationships.
