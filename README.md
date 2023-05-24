@@ -263,6 +263,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>Supports pub/sub with chunked transfer encoding and WebSockets.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/wundergraph/wundergraph">WunderGraph</a></td>
+    <td>PostgreSQL, MySQL, SQLite, SQL Server, MongoDB + Atlas, Planetscale, Yugabyte, Neon.tech and FaunaDB</td>
+    <td>GraphQL</td>
+    <td>Typescript, Go</td>
+    <td>Apache 2.0</td>
+    <td>1564 ★; 1551 commits, latest 2023-05-24</td>
+    <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
     <td>PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server and <a href="https://github.com/BjoernKW/ZenQuery#database">others</a></td>
     <td>REST</td>

@@ -1,0 +1,7 @@
+name:     WunderGraph
+url:      https://github.com/wundergraph/wundergraph
+db:       PostgreSQL, MySQL, SQLite, SQL Server, MongoDB + Atlas, Planetscale, Yugabyte, Neon.tech and FaunaDB
+api:      GraphQL
+lang:     Typescript, Go
+license:  Apache 2.0
+notes:    [WunderGraph Docs](https://docs.wundergraph.com/).
