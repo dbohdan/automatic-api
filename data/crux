@@ -1,8 +1,0 @@
-name:     Crux
-url:      https://github.com/juxt/crux
-db:       Crux
-api:      REST
-lang:     Clojure
-license:  MIT
-notes:    A database with a built-in REST API. \
-          [Official Docker image](https://hub.docker.com/r/juxt/crux-standalone).

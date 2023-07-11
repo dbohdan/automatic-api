@@ -38,15 +38,6 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/juxt/crux">Crux</a></td>
-    <td>Crux</td>
-    <td>REST</td>
-    <td>Clojure</td>
-    <td>MIT</td>
-    <td>2299 ★; 7447 commits, latest 2023-07-10</td>
-    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/juxt/crux-standalone">Official Docker image</a>.</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/simonw/datasette">Datasette</a></td>
     <td>SQLite 3</td>
     <td>REST</td>
@@ -70,7 +61,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript</td>
     <td>Propretary (Business Source License 1.1), GNU GPLv3 (after three years)</td>
-    <td>22356 ★; 10514 commits, latest 2023-07-11</td>
+    <td>22359 ★; 10514 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/directus/directus">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -106,7 +97,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>Apache 2.0</td>
-    <td>29971 ★; 7430 commits, latest 2023-07-11</td>
+    <td>29972 ★; 7431 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -142,7 +133,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>36895 ★; 15453 commits, latest 2023-07-11</td>
+    <td>36897 ★; 15453 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -169,7 +160,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
-    <td>12035 ★; 1398 commits, latest 2023-06-22</td>
+    <td>12036 ★; 1398 commits, latest 2023-06-22</td>
     <td>Formerly &quot;PostGraphQL&quot;, <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -259,7 +250,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache 2.0</td>
-    <td>53035 ★; 22027 commits, latest 2023-07-11</td>
+    <td>53043 ★; 22064 commits, latest 2023-07-11</td>
     <td>Uses PostgREST. <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
   <tr>
@@ -286,8 +277,17 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>TypeScript, Go</td>
     <td>Apache 2.0</td>
-    <td>1755 ★; 1664 commits, latest 2023-07-11</td>
+    <td>1757 ★; 1664 commits, latest 2023-07-11</td>
     <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xtdb/xtdb">XTDB</a></td>
+    <td>XTDB</td>
+    <td>REST</td>
+    <td>Clojure</td>
+    <td>MIT</td>
+    <td>2300 ★; 7447 commits, latest 2023-07-10</td>
+    <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/juxt/xtdb-standalone-rocksdb">Official Docker image</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
