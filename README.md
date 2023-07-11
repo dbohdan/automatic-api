@@ -97,7 +97,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>Apache 2.0</td>
-    <td>29970 ★; 7430 commits, latest 2023-07-11</td>
+    <td>29971 ★; 7430 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -133,7 +133,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>36894 ★; 15453 commits, latest 2023-07-11</td>
+    <td>36895 ★; 15453 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -248,10 +248,10 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td><a href="https://github.com/supabase/supabase">Supabase</a></td>
     <td>PostgreSQL</td>
     <td>REST and GraphQL</td>
-    <td>TypeScript, Elixir(Realtime), Rust (pg_graphql ), Go (GoTrue)</td>
+    <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache 2.0</td>
     <td>53033 ★; 22024 commits, latest 2023-07-11</td>
-    <td>Uses PostgREST. <a href="https://supabase.com/docs/guides/self-hosting/docker">&quot;Self-Hosting with Docker&quot;</a> guide.</td>
+    <td>Uses PostgREST. <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/bradleyboy/tuql">tuql</a></td>
