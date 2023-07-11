@@ -1,8 +1,8 @@
 name:     InfluxDB
-url:      https://www.influxdata.com/get-influxdb/
+url:      https://github.com/influxdata/influxdb
 db:       InfluxDB
 api:      REST
 lang:     Go
-license:  MIT License
+license:  MIT
 notes:    A timeseries database with a built-in REST API. \
           [Official Docker image](https://hub.docker.com/_/influxdb).

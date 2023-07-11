@@ -110,6 +110,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/influxdata/influxdb">InfluxDB</a></td>
+    <td>InfluxDB</td>
+    <td>REST</td>
+    <td>Go</td>
+    <td>MIT</td>
+    <td>25781 ★; 35272 commits, latest 2023-06-30</td>
+    <td>A timeseries database with a built-in REST API. <a href="https://hub.docker.com/_/influxdb">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/neo4j-graphql/neo4j-graphql">neo4j-graphql</a></td>
     <td>Neo4j</td>
     <td>GraphQL</td>
@@ -216,6 +225,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GNU AGPLv3</td>
     <td>42 ★; 278 commits, latest 2023-02-18</td>
     <td>A database with a built-in REST API. <a href="https://hub.docker.com/r/siodb/siodb/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/thevahidal/soul">Soul</a></td>
+    <td>SQLite 3</td>
+    <td>REST</td>
+    <td>JavaScript (Node.js)</td>
+    <td>MIT</td>
+    <td>813 ★; 106 commits, latest 2023-07-02</td>
+    <td>A SQLite RESTful server</td>
   </tr>
   <tr>
     <td><a href="https://subzero.cloud">subZero</a></td>
