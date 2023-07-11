@@ -133,7 +133,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>36892 ★; 15453 commits, latest 2023-07-11</td>
+    <td>36893 ★; 15453 commits, latest 2023-07-11</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -264,12 +264,12 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
   </tr>
   <tr>
     <td><a href="https://github.com/wundergraph/wundergraph">WunderGraph</a></td>
-    <td>PostgreSQL, MySQL, SQLite, SQL Server, MongoDB + Atlas, Planetscale, Yugabyte, Neon.tech and FaunaDB</td>
+    <td>PostgreSQL, MySQL, SQLite, SQL Server, MongoDB + Atlas, PlanetScale, YugabyteDB, Neon.tech, FaunaDB</td>
     <td>GraphQL</td>
-    <td>Typescript, Go</td>
+    <td>TypeScript, Go</td>
     <td>Apache 2.0</td>
-    <td>1564 ★; 1551 commits, latest 2023-05-24</td>
-    <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a></td>
+    <td>1755 ★; 1664 commits, latest 2023-07-11</td>
+    <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a>.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/BjoernKW/ZenQuery">ZenQuery</a></td>
