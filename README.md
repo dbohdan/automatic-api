@@ -65,6 +65,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>A database with a built-in GraphQL API. <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/directus/directus">Directus</a></td>
+    <td>PostgreSQL, MySQL, SQLite, OracleDB, CockroachDB, MariaDB, MS SQL</td>
+    <td>REST and GraphQL</td>
+    <td>TypeScript</td>
+    <td>Propretary (Business Source License 1.1), GNU GPLv3 (after three years)</td>
+    <td>22356 ★; 10514 commits, latest 2023-07-11</td>
+    <td><a href="https://hub.docker.com/r/directus/directus">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/dreamfactorysoftware/dreamfactory">DreamFactory</a></td>
     <td>MySQL, PostgreSQL, SQLite, MongoDB, CouchDB, and <a href="https://www.dreamfactory.com/products">others</a>.</td>
     <td>REST</td>
@@ -250,7 +259,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache 2.0</td>
-    <td>53033 ★; 22024 commits, latest 2023-07-11</td>
+    <td>53035 ★; 22027 commits, latest 2023-07-11</td>
     <td>Uses PostgREST. <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
   <tr>
