@@ -4,5 +4,5 @@ db:       All supported by SQLAlchemy (MySQL, PostgreSQL, SQLite, Oracle, \
           MS SQL, and others).
 api:      REST
 lang:     Python 2/3
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    [Official Docker image](https://hub.docker.com/r/jeffknupp/sandman2/).

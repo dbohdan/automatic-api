@@ -3,5 +3,5 @@ url:      https://github.com/directus/directus
 db:       PostgreSQL, MySQL, SQLite, OracleDB, CockroachDB, MariaDB, MS SQL
 api:      REST and GraphQL
 lang:     TypeScript
-license:  Propretary (Business Source License 1.1), GNU GPLv3 (after three years)
+license:  Propretary (BUSL-1.1), GPL-3.0 (after three years)
 notes:    [Official Docker image](https://hub.docker.com/r/directus/directus).

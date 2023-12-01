@@ -3,6 +3,6 @@ url:      https://github.com/orientechnologies/orientdb
 db:       OrientDB
 api:      REST
 lang:     Java
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    A database with a built-in REST API. \
           [Official Docker image](https://store.docker.com/images/orientdb).

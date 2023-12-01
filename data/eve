@@ -4,6 +4,6 @@ db:       MongoDB; extensions for Elasticsearch, Neo4j, SQLAlchemy \
           (SQL databases).
 api:      REST
 lang:     Python 2/3
-license:  BSD (three-clause)
+license:  BSD-3-Clause
 notes:    The SQLAlchemy extension isn't automatic. It requires the user to \
           write SQLAlchemy mappings.

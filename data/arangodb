@@ -3,6 +3,6 @@ url:      https://github.com/arangodb/arangodb
 db:       ArangoDB
 api:      REST
 lang:     C++
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    A database with a built-in REST API. \
           [Official Docker image](https://hub.docker.com/r/arangodb/arangodb/).

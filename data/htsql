@@ -3,4 +3,4 @@ url:      https://github.com/prometheusresearch/htsql
 db:       MySQL, PostgreSQL, SQLite (free); Oracle, MS SQL (proprietary)
 api:      REST
 lang:     Python 3
-license:  Apache 2.0, proprietary (Oracle and MS SQL support)
+license:  Apache-2.0, proprietary (Oracle and MS SQL support)

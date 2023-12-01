@@ -3,5 +3,5 @@ url:      https://github.com/nicolasff/webdis
 db:       Redis
 api:      REST
 lang:     C
-license:  BSD (two-clause)
+license:  BSD-2-Clause
 notes:    Supports pub/sub with chunked transfer encoding and WebSockets.

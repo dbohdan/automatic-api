@@ -3,5 +3,5 @@ url:      https://github.com/hasura/graphql-engine
 db:       PostgreSQL
 api:      GraphQL
 lang:     Haskell
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    [Official Docker image](https://hub.docker.com/r/hasura/graphql-engine/).

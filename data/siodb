@@ -3,6 +3,6 @@ url:      https://github.com/siodb/siodb
 db:       Siodb
 api:      REST
 lang:     C++, Go
-license:  GNU AGPLv3
+license:  AGPL-3.0
 notes:    A database with a built-in REST API. \
           [Official Docker image](https://hub.docker.com/r/siodb/siodb/).

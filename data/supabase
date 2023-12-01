@@ -3,6 +3,6 @@ url:      https://github.com/supabase/supabase
 db:       PostgreSQL
 api:      REST and GraphQL
 lang:     TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    Uses PostgREST. \
           [Guide to self-Hosting with Docker](https://supabase.com/docs/guides/self-hosting/docker).

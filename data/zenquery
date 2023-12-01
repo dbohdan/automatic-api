@@ -4,5 +4,5 @@ db:       PostgreSQL, MySQL, IBM Db2, Oracle Database, Microsoft SQL Server \
           and [others](https://github.com/BjoernKW/ZenQuery#database)
 api:      REST
 lang:     Java
-license:  Apache 2.0
+license:  Apache-2.0
 notes:    Read-only.
