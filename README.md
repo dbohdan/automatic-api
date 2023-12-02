@@ -45,7 +45,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 3</td>
     <td>Apache-2.0</td>
-    <td>8497 ★; 2469 commits, latest 2023-10-13</td>
+    <td>8498 ★; 2469 commits, latest 2023-10-13</td>
     <td>Read-only.
 <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
@@ -171,7 +171,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
     <td>12263 ★; 9619 commits, latest 2023-12-01</td>
-    <td>Formerly &quot;PostGraphQL&quot;,
+    <td>Formerly &quot;PostGraphQL&quot;.
 <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -256,7 +256,7 @@ test studs, and JS files to access the API.</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
     <td>1054 ★; 202 commits, latest 2023-12-01</td>
-    <td>A SQLite RESTful server</td>
+    <td>A RESTful SQLite server.</td>
   </tr>
   <tr>
     <td><a href="https://subzero.cloud">subZero</a></td>
