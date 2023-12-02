@@ -1,7 +1,0 @@
-name:     RESTHeart
-url:      https://github.com/SoftInstigate/restheart
-db:       MongoDB
-api:      REST
-lang:     Java
-license:  AGPL-3.0
-notes:    [Official Docker image](https://hub.docker.com/r/softinstigate/restheart/).

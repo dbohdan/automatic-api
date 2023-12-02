@@ -1,7 +1,0 @@
-name:     pREST
-url:      https://github.com/prest/prest
-db:       PostgreSQL
-api:      REST
-lang:     Go
-license:  MIT
-notes:    [Official Docker image](https://hub.docker.com/r/prest/prest/).

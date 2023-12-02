@@ -1,8 +1,0 @@
-name:     CouchDB
-url:      https://github.com/apache/couchdb
-db:       CouchDB
-api:      REST
-lang:     Erlang
-license:  Apache-2.0
-notes:    A database with a built-in REST API. \
-          [Official Docker image](https://hub.docker.com/r/_/couchdb/).

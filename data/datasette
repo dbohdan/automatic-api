@@ -1,8 +1,0 @@
-name:     Datasette
-url:      https://github.com/simonw/datasette
-db:       SQLite 3
-api:      REST
-lang:     Python 3
-license:  Apache-2.0
-notes:    Read-only. \
-          [Official Docker image](https://hub.docker.com/r/terranodo/datasette/).

@@ -1,0 +1,12 @@
+name = "WunderGraph"
+url = "https://github.com/wundergraph/wundergraph"
+db = """
+PostgreSQL, MySQL, SQLite, SQL Server, MongoDB + Atlas, PlanetScale, YugabyteDB,
+Neon.tech, FaunaDB
+"""
+api = "GraphQL"
+lang = "TypeScript, Go"
+license = "Apache-2.0"
+notes = """
+[WunderGraph Docs](https://docs.wundergraph.com/).
+"""

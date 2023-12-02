@@ -1,0 +1,10 @@
+name = "Silence"
+url = "https://github.com/DEAL-US/Silence"
+db = "MySQL, MariaDB"
+api = "REST"
+lang = "Python 3"
+license = "MIT"
+notes = """
+Automatically generates REST endpoints to do CRUD operations against the database,
+test studs, and JS files to access the API.
+"""

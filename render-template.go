@@ -1,9 +1,9 @@
 // This script generates README.md from README.md.template and the data
-// in data/.  It fetches statistics about GitHub repositories from GitHub.
-// For the script to work the environment variable GITHUB_TOKEN must contain
+// in data/. It fetches statistics about GitHub repositories from GitHub.
+// For the script to work, the environment variable GITHUB_TOKEN must contain
 // a valid personal access token (see https://github.com/settings/tokens).
 //
-// Copyright (c) D. Bohdan 2017, 2018, 2019, 2020.
+// Copyright (c) D. Bohdan 2017-2019, 2020, 2023.
 // License: MIT.
 package main
 
@@ -22,19 +22,19 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/magiconair/properties"
-	"github.com/rhinoman/go-commonmark"
+	"github.com/BurntSushi/toml"
+	"github.com/yuin/goldmark"
 )
 
 type entry struct {
-	Name    string `properties:"name"`
-	URL     string `properties:"url"`
-	DB      string `properties:"db"`
-	API     string `properties:"api"`
-	Lang    string `properties:"lang"`
-	License string `properties:"license"`
-	Stats   string `properties:"stats,default="`
-	Notes   string `properties:"notes,default="`
+	Name    string `toml:"name"`
+	URL     string `toml:"url"`
+	DB      string `toml:"db"`
+	API     string `toml:"api"`
+	Lang    string `toml:"lang"`
+	License string `toml:"license"`
+	Stats   string `toml:"stats"`
+	Notes   string `toml:"notes"`
 }
 
 type table [][]string
@@ -65,7 +65,7 @@ type gitHubResponse struct {
 	Errors  []map[string]interface{}
 }
 
-// Load entry data from properties files that match the glob pattern.
+// Load entry data from TOML files that match the glob pattern.
 func loadEntries(glob string) (entries []entry, err error) {
 	matches, err := filepath.Glob(glob)
 	if err != nil {
@@ -74,12 +74,12 @@ func loadEntries(glob string) (entries []entry, err error) {
 
 	entries = make([]entry, len(matches))
 	for i, match := range matches {
-		p, err := properties.LoadFile(match, properties.UTF8)
+		buf, err := ioutil.ReadFile(match)
 		if err != nil {
 			return nil, err
 		}
 
-		err = p.Decode(&entries[i])
+		err = toml.Unmarshal(buf, &entries[i])
 		if err != nil {
 			return nil, err
 		}
@@ -121,7 +121,7 @@ func entriesToTable(entries []entry) (tbl table) {
 
 // <p>foo</p> -> foo
 func stripP(html string) (res string) {
-	p := regexp.MustCompile("^<p>(.*?)</p>\n?$")
+	p := regexp.MustCompile("(?s)^\\s*<p>(.*?)</p>\\s*$")
 	found := p.FindStringSubmatch(html)
 	if len(found) == 2 {
 		return found[1]
@@ -144,11 +144,19 @@ func (tbl table) Format() (res string) {
 
 	for _, row := range tbl[1:] {
 		buffer.WriteString("  <tr>\n")
+
 		for _, col := range row {
-			colHTML := stripP(commonmark.Md2Html(col, 0))
+			var colHTML bytes.Buffer
+
+			if err := goldmark.Convert([]byte(col), &colHTML); err != nil {
+				log.Fatal(err)
+			}
+
 			buffer.WriteString(
-				fmt.Sprintf("    <td>%s</td>\n", colHTML))
+				fmt.Sprintf("    <td>%s</td>\n", stripP(colHTML.String())),
+			)
 		}
+
 		buffer.WriteString("  </tr>\n")
 	}
 
@@ -299,7 +307,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	entries, err := loadEntries("data/*")
+	entries, err := loadEntries("data/*.toml")
 	if err != nil {
 		log.Fatal(err)
 	}

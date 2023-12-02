@@ -1,0 +1,10 @@
+name = "neo4j-graphql"
+url = "https://github.com/neo4j-graphql/neo4j-graphql"
+db = "Neo4j"
+api = "GraphQL"
+lang = "Kotlin"
+license = "Apache-2.0"
+notes = """
+Can generate a GraphQL API from an existing database
+or derive a new database model from a GraphQL schema and auto-generate the resolvers.
+"""

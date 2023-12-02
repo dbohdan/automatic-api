@@ -1,7 +1,0 @@
-name:     restSQL
-url:      https://github.com/restsql/restsql
-db:       MySQL, PostgreSQL
-api:      REST
-lang:     Java
-license:  MIT
-notes:    [Official Docker image](https://hub.docker.com/r/restsql/service/).

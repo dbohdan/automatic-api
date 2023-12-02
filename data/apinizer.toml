@@ -1,0 +1,9 @@
+name = "Apinizer API Creator"
+url = "https://www.apinizer.com/products/api-creator/"
+db = "Oracle, MySQL, PostgreSQL, MsSQL, IBM DB2, SAP Sybase ASE, Apache Impala, Apache Hive"
+api = "REST"
+lang = "Java"
+license = "Proprietary (SaaS)"
+notes = """
+Generates OpenAPI Specifications.
+"""

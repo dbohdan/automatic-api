@@ -1,0 +1,10 @@
+name = "InfluxDB"
+url = "https://github.com/influxdata/influxdb"
+db = "InfluxDB"
+api = "REST"
+lang = "Go"
+license = "MIT"
+notes = """
+A timeseries database with a built-in REST API.
+[Official Docker image](https://hub.docker.com/_/influxdb).
+"""

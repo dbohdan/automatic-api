@@ -1,8 +1,0 @@
-name:     XTDB
-url:      https://github.com/xtdb/xtdb
-db:       XTDB
-api:      REST
-lang:     Clojure
-license:  MIT
-notes:    A database with a built-in REST API. \
-          [Official Docker image](https://hub.docker.com/r/juxt/xtdb-standalone-rocksdb).

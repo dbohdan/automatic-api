@@ -1,0 +1,9 @@
+name = "PostgREST"
+url = "https://github.com/PostgREST/postgrest"
+db = "PostgreSQL"
+api = "REST"
+lang = "Haskell"
+license = "MIT"
+notes = """
+[Official Docker image](https://hub.docker.com/r/postgrest/postgrest/).
+"""
