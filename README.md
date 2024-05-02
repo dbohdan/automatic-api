@@ -25,7 +25,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C++</td>
     <td>Apache-2.0</td>
-    <td>13182 ★; 50853 commits, latest 2023-12-01</td>
+    <td>13358 ★; 51300 commits, latest 2024-05-02</td>
     <td>A database with a built-in REST API.
 <a href="https://hub.docker.com/r/arangodb/arangodb/">Official Docker image</a>.</td>
   </tr>
@@ -35,7 +35,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache-2.0</td>
-    <td>5880 ★; 13451 commits, latest 2023-12-01</td>
+    <td>6023 ★; 13571 commits, latest 2024-04-26</td>
     <td>A database with a built-in REST API.
 <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
@@ -45,7 +45,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 3</td>
     <td>Apache-2.0</td>
-    <td>8498 ★; 2469 commits, latest 2023-10-13</td>
+    <td>8955 ★; 2591 commits, latest 2024-04-22</td>
     <td>Read-only.
 <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
@@ -55,7 +55,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL (since version 2.0.0-rc1)</td>
     <td>Go</td>
     <td>Apache-2.0</td>
-    <td>19763 ★; 6058 commits, latest 2023-10-13</td>
+    <td>20073 ★; 6097 commits, latest 2024-04-22</td>
     <td>A database with a built-in GraphQL API.
 <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
@@ -65,7 +65,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript</td>
     <td>Propretary (BUSL-1.1), GPL-3.0 (after three years)</td>
-    <td>23874 ★; 11030 commits, latest 2023-12-01</td>
+    <td>25485 ★; 11724 commits, latest 2024-05-02</td>
     <td><a href="https://hub.docker.com/r/directus/directus">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>PHP 5</td>
     <td>Apache-2.0, proprietary (optional extras)</td>
-    <td>1437 ★; 1131 commits, latest 2023-11-30</td>
+    <td>1482 ★; 1139 commits, latest 2024-01-22</td>
     <td><a href="https://hub.docker.com/r/dreamfactorysoftware/df-docker/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>C</td>
     <td>MIT</td>
-    <td>1402 ★; 2827 commits, latest 2023-11-03</td>
+    <td>1429 ★; 2829 commits, latest 2024-02-17</td>
     <td>A database with a built-in REST API.
 <a href="https://github.com/Softmotions/ejdb">Official Docker image</a>.</td>
   </tr>
@@ -94,7 +94,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD-3-Clause</td>
-    <td>6644 ★; 3393 commits, latest 2023-07-10</td>
+    <td>6661 ★; 3393 commits, latest 2023-07-10</td>
     <td>The SQLAlchemy extension isn't automatic.
 It requires the user to write SQLAlchemy mappings.</td>
   </tr>
@@ -104,7 +104,7 @@ It requires the user to write SQLAlchemy mappings.</td>
     <td>GraphQL</td>
     <td>Haskell</td>
     <td>Apache-2.0</td>
-    <td>30506 ★; 7849 commits, latest 2023-12-01</td>
+    <td>30832 ★; 8202 commits, latest 2024-05-02</td>
     <td><a href="https://hub.docker.com/r/hasura/graphql-engine/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -122,7 +122,7 @@ It requires the user to write SQLAlchemy mappings.</td>
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>26788 ★; 49152 commits, latest 2023-11-02</td>
+    <td>27792 ★; 49235 commits, latest 2024-04-29</td>
     <td>A timeseries database with a built-in REST API.
 <a href="https://hub.docker.com/_/influxdb">Official Docker image</a>.</td>
   </tr>
@@ -132,7 +132,7 @@ It requires the user to write SQLAlchemy mappings.</td>
     <td>GraphQL</td>
     <td>Kotlin</td>
     <td>Apache-2.0</td>
-    <td>449 ★; 164 commits, latest 2020-10-22</td>
+    <td>450 ★; 164 commits, latest 2020-10-22</td>
     <td>Can generate a GraphQL API from an existing database
 or derive a new database model from a GraphQL schema and auto-generate the resolvers.</td>
   </tr>
@@ -142,7 +142,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>38799 ★; 18694 commits, latest 2023-12-02</td>
+    <td>42565 ★; 22644 commits, latest 2024-05-02</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -151,7 +151,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Java</td>
     <td>Apache-2.0</td>
-    <td>4650 ★; 21600 commits, latest 2023-11-29</td>
+    <td>4693 ★; 22987 commits, latest 2024-04-15</td>
     <td>A database with a built-in REST API.
 <a href="https://store.docker.com/images/orientdb">Official Docker image</a>.</td>
   </tr>
@@ -161,7 +161,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>PHP 7</td>
     <td>MIT</td>
-    <td>3451 ★; 2120 commits, latest 2023-11-13</td>
+    <td>3530 ★; 2137 commits, latest 2024-04-28</td>
     <td>Supports GIS + automatic OpenAPI 3.0 docs.</td>
   </tr>
   <tr>
@@ -170,7 +170,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>GraphQL</td>
     <td>TypeScript (Node.js)</td>
     <td>MIT</td>
-    <td>12263 ★; 9619 commits, latest 2023-12-01</td>
+    <td>12420 ★; 10311 commits, latest 2024-05-01</td>
     <td>Formerly &quot;PostGraphQL&quot;.
 <a href="https://hub.docker.com/r/postgraphql/postgraphql/">Official Docker image</a>.</td>
   </tr>
@@ -180,7 +180,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>21394 ★; 2584 commits, latest 2023-12-02</td>
+    <td>22341 ★; 3580 commits, latest 2024-04-30</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -189,7 +189,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>3975 ★; 1953 commits, latest 2023-11-06</td>
+    <td>4098 ★; 1981 commits, latest 2024-04-30</td>
     <td><a href="https://hub.docker.com/r/prest/prest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -198,7 +198,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>PHP</td>
     <td>MIT</td>
-    <td>95 ★; 1081 commits, latest 2022-07-13</td>
+    <td>102 ★; 1081 commits, latest 2022-07-13</td>
     <td></td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Java</td>
     <td>AGPL-3.0</td>
-    <td>784 ★; 4282 commits, latest 2023-11-30</td>
+    <td>790 ★; 4403 commits, latest 2024-05-02</td>
     <td><a href="https://hub.docker.com/r/softinstigate/restheart/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -216,7 +216,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Java</td>
     <td>MIT</td>
-    <td>138 ★; 54 commits, latest 2018-10-18</td>
+    <td>142 ★; 54 commits, latest 2018-10-18</td>
     <td><a href="https://hub.docker.com/r/restsql/service/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Python 2/3</td>
     <td>Apache-2.0</td>
-    <td>1964 ★; 250 commits, latest 2020-12-21</td>
+    <td>1982 ★; 250 commits, latest 2020-12-21</td>
     <td><a href="https://hub.docker.com/r/jeffknupp/sandman2/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -235,7 +235,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Python 3</td>
     <td>MIT</td>
-    <td>10 ★; 425 commits, latest 2022-12-22</td>
+    <td>11 ★; 445 commits, latest 2024-02-14</td>
     <td>Automatically generates REST endpoints to do CRUD operations against the database,
 test studs, and JS files to access the API.</td>
   </tr>
@@ -255,7 +255,7 @@ test studs, and JS files to access the API.</td>
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>1054 ★; 202 commits, latest 2023-12-01</td>
+    <td>1427 ★; 315 commits, latest 2024-04-26</td>
     <td>A RESTful SQLite server.</td>
   </tr>
   <tr>
@@ -273,7 +273,7 @@ test studs, and JS files to access the API.</td>
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache-2.0</td>
-    <td>60095 ★; 26365 commits, latest 2023-12-02</td>
+    <td>66218 ★; 27922 commits, latest 2024-05-02</td>
     <td>Uses PostgREST.
 <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
@@ -283,7 +283,7 @@ test studs, and JS files to access the API.</td>
     <td>GraphQL</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>1026 ★; 72 commits, latest 2021-06-06</td>
+    <td>1041 ★; 72 commits, latest 2021-06-06</td>
     <td></td>
   </tr>
   <tr>
@@ -292,7 +292,7 @@ test studs, and JS files to access the API.</td>
     <td>REST</td>
     <td>C</td>
     <td>BSD-2-Clause</td>
-    <td>2750 ★; 657 commits, latest 2023-11-04</td>
+    <td>2783 ★; 658 commits, latest 2024-04-29</td>
     <td>Supports pub/sub with chunked transfer encoding and WebSockets.</td>
   </tr>
   <tr>
@@ -302,7 +302,7 @@ Neon.tech, FaunaDB</td>
     <td>GraphQL</td>
     <td>TypeScript, Go</td>
     <td>Apache-2.0</td>
-    <td>2039 ★; 1875 commits, latest 2023-12-01</td>
+    <td>2162 ★; 1902 commits, latest 2024-04-19</td>
     <td><a href="https://docs.wundergraph.com/">WunderGraph Docs</a>.</td>
   </tr>
   <tr>
@@ -311,7 +311,7 @@ Neon.tech, FaunaDB</td>
     <td>REST</td>
     <td>Clojure</td>
     <td>MIT</td>
-    <td>2384 ★; 7476 commits, latest 2023-11-29</td>
+    <td>2444 ★; 5320 commits, latest 2024-05-02</td>
     <td>A database with a built-in REST API.
 <a href="https://hub.docker.com/r/juxt/xtdb-standalone-rocksdb">Official Docker image</a>.</td>
   </tr>
@@ -322,13 +322,13 @@ Neon.tech, FaunaDB</td>
     <td>REST</td>
     <td>Java</td>
     <td>Apache-2.0</td>
-    <td>62 ★; 283 commits, latest 2018-10-16</td>
+    <td>63 ★; 283 commits, latest 2018-10-16</td>
     <td>Read-only.</td>
   </tr>
 </table>
 
 
-GitHub stats updated 2023-12-02. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2024-05-02. The commit count and the latest commit date are for the default branch (usually `master`).
 
 # Related projects
 
