@@ -142,7 +142,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>42565 ★; 22644 commits, latest 2024-05-02</td>
+    <td>42566 ★; 22644 commits, latest 2024-05-02</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -328,7 +328,7 @@ Neon.tech, FaunaDB</td>
 </table>
 
 
-GitHub stats updated 2024-05-02. The commit count and the latest commit date are for the default branch (usually `master`).
+GitHub stats updated 2024-05-02. The commit count and the latest commit date are for the default branch.
 
 # Related projects
 
