@@ -103,9 +103,18 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Python 2/3</td>
     <td>BSD-3-Clause</td>
-    <td>6682 ★; 3393 commits, latest 2023-07-10</td>
+    <td>6682 ★; 3401 commits, latest 2024-08-30</td>
     <td>The SQLAlchemy extension isn't automatic.
 It requires the user to write SQLAlchemy mappings.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ardatan/graphql-mesh">GraphQL Mesh</a></td>
+    <td>PostgreSQL (PostGraphile), MongoDB (graphql-compose-mongoose), SQLite 3 (tuql), Neo4j (Neo4j GraphQL Library), MySQL</td>
+    <td>GraphQL</td>
+    <td>TypeScript (Node.js)</td>
+    <td>MIT</td>
+    <td>3245 ★; 7382 commits, latest 2024-08-29</td>
+    <td>Provides a common GraphQL gateway for different APIs and databases.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/hasura/graphql-engine">Hasura GraphQL Engine</a></td>
@@ -151,7 +160,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>45528 ★; 23934 commits, latest 2024-08-30</td>
+    <td>45536 ★; 23934 commits, latest 2024-08-30</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -282,7 +291,7 @@ test studs, and JS files to access the API.</td>
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache-2.0</td>
-    <td>70979 ★; 28987 commits, latest 2024-08-30</td>
+    <td>70980 ★; 28987 commits, latest 2024-08-30</td>
     <td>Uses PostgREST.
 <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>

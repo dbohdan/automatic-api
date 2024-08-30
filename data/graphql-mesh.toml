@@ -1,0 +1,9 @@
+name = "GraphQL Mesh"
+url = "https://github.com/ardatan/graphql-mesh"
+db = "PostgreSQL (PostGraphile), MongoDB (graphql-compose-mongoose), SQLite 3 (tuql), Neo4j (Neo4j GraphQL Library), MySQL"
+api = "GraphQL"
+lang = "TypeScript (Node.js)"
+license = "MIT"
+notes = """
+Provides a common GraphQL gateway for different APIs and databases.
+"""
