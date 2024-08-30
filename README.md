@@ -50,6 +50,15 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 <a href="https://hub.docker.com/r/terranodo/datasette/">Official Docker image</a>.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/kdhrubo/db2rest">DB2Rest</a></td>
+    <td>PostgreSQL, MySQL, MariaDB, Oracle, CockroachDB</td>
+    <td>REST</td>
+    <td>Java</td>
+    <td>Apache-2.0</td>
+    <td>157 ★; 974 commits, latest 2024-08-30</td>
+    <td><a href="https://hub.docker.com/r/kdhrubo/db2rest/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/dgraph-io/dgraph">Dgraph</a></td>
     <td>Dgraph</td>
     <td>GraphQL (since version 2.0.0-rc1)</td>
@@ -142,7 +151,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>45526 ★; 23934 commits, latest 2024-08-30</td>
+    <td>45528 ★; 23934 commits, latest 2024-08-30</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>

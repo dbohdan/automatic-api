@@ -1,0 +1,9 @@
+name = "DB2Rest"
+url = "https://github.com/kdhrubo/db2rest"
+db = "PostgreSQL, MySQL, MariaDB, Oracle, CockroachDB"
+api = "REST"
+lang = "Java"
+license = "Apache-2.0"
+notes = """
+[Official Docker image](https://hub.docker.com/r/kdhrubo/db2rest/).
+"""
