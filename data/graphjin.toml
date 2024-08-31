@@ -1,0 +1,10 @@
+name = "GraphJin Service"
+url = "https://github.com/dosco/graphjin"
+db = "PostgreSQL, MySQL, Yugabyte"
+api = "GraphQL"
+lang = "Go"
+license = "Apache-2.0"
+notes = """
+[Using GraphJin as a standlone service](https://graphjin.com/posts/service).
+[Official Docker image](https://hub.docker.com/r/dosco/graphjin/).
+"""

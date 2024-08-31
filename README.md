@@ -108,6 +108,16 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
 It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/dosco/graphjin">GraphJin Service</a></td>
+    <td>PostgreSQL, MySQL, Yugabyte</td>
+    <td>GraphQL</td>
+    <td>Go</td>
+    <td>Apache-2.0</td>
+    <td>2904 ★; 928 commits, latest 2024-07-13</td>
+    <td><a href="https://graphjin.com/posts/service">Using GraphJin as a standlone service</a>.
+<a href="https://hub.docker.com/r/dosco/graphjin/">Official Docker image</a>.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/ardatan/graphql-mesh">GraphQL Mesh</a></td>
     <td>PostgreSQL (PostGraphile), MongoDB (graphql-compose-mongoose), SQLite 3 (tuql), Neo4j (Neo4j GraphQL Library), MySQL</td>
     <td>GraphQL</td>
@@ -160,7 +170,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>45811 ★; 23976 commits, latest 2024-08-30</td>
+    <td>45812 ★; 23976 commits, latest 2024-08-30</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
