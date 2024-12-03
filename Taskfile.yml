@@ -1,0 +1,29 @@
+version: '3'
+
+dotenv:
+  - .env
+
+vars:
+  data_files: '{{.ROOT_DIR}}/data/*'
+
+tasks:
+  default:
+    deps:
+      - fmt
+      - readme
+
+  fmt:
+    desc: Format `render-template.go`
+    cmds:
+      - go fmt render-template.go
+
+  readme:
+    desc: Generate `README.md` using `render-template.go`
+    sources:
+      - README.template.md
+      - render-template.go
+      - '{{.data_files}}'
+    generates:
+      - README.md
+    cmds:
+      - go run render-template.go > README.md

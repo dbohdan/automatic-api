@@ -1,3 +1,5 @@
 /attic/
+.env
 *.swp
+/.task/
 *.txt
