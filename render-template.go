@@ -302,7 +302,7 @@ func fetchGitHubStats(token string, repos []repo) (statsHTML []string,
 }
 
 func main() {
-	tmpl, err := template.ParseFiles("README.md.template")
+	tmpl, err := template.ParseFiles("README.template.md")
 	if err != nil {
 		log.Fatal(err)
 	}
