@@ -128,8 +128,8 @@ It requires the user to write SQLAlchemy mappings.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/hasura/graphql-engine">Hasura GraphQL Engine</a></td>
-    <td>PostgreSQL</td>
-    <td>GraphQL</td>
+    <td>PostgreSQL, MS SQL, MySQL, Snowflake, and <a href="https://hasura.io/connectors">others</a></td>
+    <td>GraphQL, REST</td>
     <td>Haskell</td>
     <td>Apache-2.0</td>
     <td>31246 ★; 9118 commits, latest 2024-12-20</td>
