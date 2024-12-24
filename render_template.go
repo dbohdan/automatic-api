@@ -3,7 +3,7 @@
 // For the script to work, the environment variable GITHUB_TOKEN must contain
 // a valid personal access token (see https://github.com/settings/tokens).
 //
-// Copyright (c) D. Bohdan 2017-2019, 2020, 2023.
+// Copyright (c) D. Bohdan 2017-2019, 2020, 2023-2024.
 // License: MIT.
 package main
 
@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"html"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -74,7 +74,7 @@ func loadEntries(glob string) (entries []entry, err error) {
 
 	entries = make([]entry, len(matches))
 	for i, match := range matches {
-		buf, err := ioutil.ReadFile(match)
+		buf, err := os.ReadFile(match)
 		if err != nil {
 			return nil, err
 		}
@@ -88,7 +88,7 @@ func loadEntries(glob string) (entries []entry, err error) {
 	return entries, nil
 }
 
-// Convert each entry into a table row.
+// Convert each entry to a table row.
 func entriesToTable(entries []entry) (tbl table) {
 	tbl = make(table, len(entries)+1)
 	tbl[0] = make([]string, 7)
@@ -121,7 +121,7 @@ func entriesToTable(entries []entry) (tbl table) {
 
 // <p>foo</p> -> foo
 func stripP(html string) (res string) {
-	p := regexp.MustCompile("(?s)^\\s*<p>(.*?)</p>\\s*$")
+	p := regexp.MustCompile(`(?s)^\s*<p>(.*?)</p>\s*$`)
 	found := p.FindStringSubmatch(html)
 	if len(found) == 2 {
 		return found[1]
@@ -129,8 +129,8 @@ func stripP(html string) (res string) {
 	return html
 }
 
-// Convert a table with each cell containing Markdown to an HTML <table>
-// representation.
+// Convert a table with each cell containing Markdown
+// to an HTML <table> representation.
 func (tbl table) Format() (res string) {
 	buffer := bytes.NewBufferString("<table>\n")
 
@@ -193,7 +193,7 @@ func queryGitHub(token string, query string) (body []byte, err error) {
 		return nil, err
 	}
 
-	body, err = ioutil.ReadAll(resp.Body)
+	body, err = io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
 	}
@@ -345,5 +345,8 @@ func main() {
 	dot["date"] = time.Now().Format("2006-01-02")
 	dot["table"] = tbl.Format()
 
-	tmpl.Execute(os.Stdout, dot)
+	err = tmpl.Execute(os.Stdout, dot)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
