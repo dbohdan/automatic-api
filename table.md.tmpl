@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>Project name/link</th>
+    <th>Database(s) supported</th>
+    <th>API type</th>
+    <th>Implementation language</th>
+    <th>License</th>
+    <th>GitHub stats</th>
+    <th>Notes</th>
+  </tr>
+{{- range .Rows}}
+  <tr>
+{{- range .Cells}}
+    <td>{{.}}</td>
+{{- end}}
+  </tr>
+{{- end}}
+</table>

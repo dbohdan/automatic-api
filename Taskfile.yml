@@ -20,7 +20,8 @@ tasks:
   readme:
     desc: Generate `README.md` using `render_template.go`
     sources:
-      - README.template.md
+      - README.md.tmpl
+      - table.md.tmpl
       - render_template.go
       - '{{.data_files}}'
     generates:

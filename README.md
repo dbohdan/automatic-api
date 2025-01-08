@@ -35,7 +35,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST</td>
     <td>Erlang</td>
     <td>Apache-2.0</td>
-    <td>6345 ★; 13855 commits, latest 2025-01-07</td>
+    <td>6346 ★; 13855 commits, latest 2025-01-07</td>
     <td>A database with a built-in REST API.
 <a href="https://hub.docker.com/r/_/couchdb/">Official Docker image</a>.</td>
   </tr>
@@ -64,7 +64,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>GraphQL (since version 2.0.0-rc1)</td>
     <td>Go</td>
     <td>Apache-2.0</td>
-    <td>20571 ★; 6237 commits, latest 2025-01-08</td>
+    <td>20571 ★; 6240 commits, latest 2025-01-08</td>
     <td>A database with a built-in GraphQL API.
 <a href="https://hub.docker.com/r/dgraph/dgraph/">Official Docker image</a>.</td>
   </tr>
@@ -74,7 +74,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <td>REST and GraphQL</td>
     <td>TypeScript</td>
     <td>Propretary (BUSL-1.1), GPL-3.0 (after three years)</td>
-    <td>28614 ★; 12489 commits, latest 2025-01-08</td>
+    <td>28616 ★; 12491 commits, latest 2025-01-08</td>
     <td><a href="https://hub.docker.com/r/directus/directus">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -150,7 +150,7 @@ It requires the user to write SQLAlchemy mappings.</td>
     <td>REST</td>
     <td>Go</td>
     <td>MIT</td>
-    <td>29282 ★; 49443 commits, latest 2025-01-08</td>
+    <td>29283 ★; 49443 commits, latest 2025-01-08</td>
     <td>A timeseries database with a built-in REST API.
 <a href="https://hub.docker.com/_/influxdb">Official Docker image</a>.</td>
   </tr>
@@ -170,7 +170,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>JavaScript (Node.js)</td>
     <td>MIT</td>
-    <td>50726 ★; 26350 commits, latest 2025-01-08</td>
+    <td>50728 ★; 26350 commits, latest 2025-01-08</td>
     <td><a href="https://hub.docker.com/r/markuman/xmysql/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -208,7 +208,7 @@ or derive a new database model from a GraphQL schema and auto-generate the resol
     <td>REST</td>
     <td>Haskell</td>
     <td>MIT</td>
-    <td>24179 ★; 3847 commits, latest 2024-12-30</td>
+    <td>24180 ★; 3847 commits, latest 2024-12-30</td>
     <td><a href="https://hub.docker.com/r/postgrest/postgrest/">Official Docker image</a>.</td>
   </tr>
   <tr>
@@ -301,7 +301,7 @@ test studs, and JS files to access the API.</td>
     <td>REST and GraphQL</td>
     <td>TypeScript, Elixir (Realtime), Rust (pg_graphql), Go (GoTrue)</td>
     <td>Apache-2.0</td>
-    <td>75873 ★; 30103 commits, latest 2025-01-08</td>
+    <td>75875 ★; 30104 commits, latest 2025-01-08</td>
     <td>Uses PostgREST.
 <a href="https://supabase.com/docs/guides/self-hosting/docker">Guide to self-Hosting with Docker</a>.</td>
   </tr>
