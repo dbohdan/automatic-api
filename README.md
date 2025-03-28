@@ -11,7 +11,7 @@ The following is a list of tools that automatically expose a REST, GraphQL, or a
     <th>Notes</th>
   </tr>
   <tr>
-    <td><a href="https://www.apinizer.com/products/api-creator/">Apinizer API Creator</a></td>
+    <td><a href="https://www.apinizer.com/api-creator/">Apinizer API Creator</a></td>
     <td>Oracle, MySQL, PostgreSQL, MsSQL, IBM DB2, SAP Sybase ASE, Apache Impala, Apache Hive</td>
     <td>REST</td>
     <td>Java</td>
